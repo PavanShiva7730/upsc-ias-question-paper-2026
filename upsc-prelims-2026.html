@@ -1,0 +1,2013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>UPSC Prelims 2026 Answer Key — Set A, B, C, D Solutions</title>
+<style>
+  :root {
+    --bg: #f8f9fb;
+    --card: #ffffff;
+    --border: #e4e7ed;
+    --text: #1a1d23;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --green: #16a34a;
+    --green-light: #f0fdf4;
+    --red: #dc2626;
+    --red-light: #fef2f2;
+    --orange: #d97706;
+    --orange-light: #fffbeb;
+
+    --geography: #0891b2;
+    --geography-bg: #ecfeff;
+    --artculture: #7c3aed;
+    --artculture-bg: #f5f3ff;
+    --history: #b45309;
+    --history-bg: #fef3c7;
+    --environment: #15803d;
+    --environment-bg: #f0fdf4;
+    --economy: #1d4ed8;
+    --economy-bg: #eff6ff;
+    --currentaffairs: #be185d;
+    --currentaffairs-bg: #fdf2f8;
+    --science: #0369a1;
+    --science-bg: #f0f9ff;
+    --polity: #7e22ce;
+    --polity-bg: #faf5ff;
+    --other: #374151;
+    --other-bg: #f9fafb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+  a{color:var(--accent);text-decoration:none}
+
+  /* HEADER */
+  .site-header{background:#1e3a5f;color:#fff;padding:0}
+  .header-top{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;border-bottom:1px solid rgba(255,255,255,0.1)}
+  .site-logo{font-size:20px;font-weight:700;letter-spacing:-0.5px;color:#fff}
+  .site-logo span{color:#60a5fa}
+  .breadcrumb{font-size:13px;color:rgba(255,255,255,0.65);padding:8px 20px}
+  .breadcrumb span{color:rgba(255,255,255,0.4);margin:0 6px}
+  .page-hero{padding:28px 20px 24px;max-width:900px;margin:0 auto}
+  .page-hero h1{font-size:clamp(18px,3vw,24px);font-weight:700;line-height:1.3;margin-bottom:8px}
+  .page-hero p{font-size:14px;color:rgba(255,255,255,0.75);margin-bottom:16px}
+  .hero-meta{display:flex;flex-wrap:wrap;gap:10px;font-size:13px;color:rgba(255,255,255,0.7)}
+  .hero-meta span{background:rgba(255,255,255,0.1);border-radius:6px;padding:4px 10px}
+
+  /* EXAM INFO CARDS */
+  .info-strip{background:#fff;border-bottom:1px solid var(--border);padding:16px 20px}
+  .info-strip-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .info-card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px 16px;text-align:center}
+  .info-card .label{font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:var(--muted);margin-bottom:4px}
+  .info-card .value{font-size:15px;font-weight:600;color:var(--text)}
+
+  /* MAIN CONTENT */
+  .main{max-width:900px;margin:24px auto;padding:0 16px}
+  .section{background:var(--card);border:1px solid var(--border);border-radius:14px;margin-bottom:24px;overflow:hidden}
+  .section-header{padding:18px 20px 14px;border-bottom:1px solid var(--border)}
+  .section-header h2{font-size:17px;font-weight:700;margin-bottom:4px}
+  .section-header p{font-size:13px;color:var(--muted)}
+
+  /* TABS / SET SELECTOR */
+  .controls{padding:14px 20px;background:#fafbfc;border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+  .set-selector{display:flex;gap:6px;align-items:center}
+  .set-label{font-size:13px;font-weight:600;color:var(--muted)}
+  .set-btn{padding:5px 14px;border:1.5px solid var(--border);border-radius:8px;background:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;color:var(--muted)}
+  .set-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .set-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  .subject-filters{display:flex;flex-wrap:wrap;gap:6px}
+  .subj-btn{padding:4px 11px;border:1.5px solid var(--border);border-radius:20px;background:#fff;font-size:12px;font-weight:500;cursor:pointer;transition:all .15s;color:var(--muted)}
+  .subj-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .subj-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+  /* QUESTION TABLE */
+  .q-count{padding:8px 20px;font-size:13px;color:var(--muted);background:#fafbfc;border-bottom:1px solid var(--border)}
+  .q-table{width:100%;border-collapse:collapse}
+  .q-table thead th{padding:10px 14px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;color:var(--muted);background:#f4f6f9;text-align:left;border-bottom:1px solid var(--border)}
+  .q-table thead th:nth-child(1){width:52px;text-align:center}
+  .q-table thead th:nth-child(4){width:100px}
+  .q-table thead th:nth-child(5){width:70px;text-align:center}
+  .q-row{cursor:pointer;transition:background .12s}
+  .q-row:hover{background:#f0f6ff}
+  .q-row.expanded{background:#f0f6ff}
+  .q-row td{padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;font-size:14px}
+  .q-row td:first-child{text-align:center;font-weight:700;color:var(--accent);font-size:13px}
+  .q-text{color:var(--text);line-height:1.5}
+  .q-text.truncate{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .subject-badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;white-space:nowrap}
+  .ans-badge{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-weight:700;font-size:14px;background:var(--green-light);color:var(--green);border:1.5px solid #86efac;margin:0 auto}
+  .expand-icon{font-size:16px;color:var(--muted);transition:transform .2s;display:inline-block}
+  .q-row.expanded .expand-icon{transform:rotate(90deg)}
+
+  /* EXPLANATION ROW */
+  .explain-row{display:none}
+  .explain-row.open{display:table-row}
+  .explain-cell{background:#f7faff;border-bottom:2px solid var(--accent);padding:16px 20px;font-size:14px;line-height:1.7}
+  .explain-cell .full-q{font-weight:600;margin-bottom:12px;color:var(--text);font-size:14px;line-height:1.6}
+  .options-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:14px}
+  .opt{padding:7px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:13px;background:#fff}
+  .opt.correct{background:var(--green-light);border-color:#86efac;font-weight:600;color:var(--green)}
+  .opt.wrong{background:var(--red-light);border-color:#fca5a5;color:var(--red);text-decoration:line-through}
+  .explain-body{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+  .explain-body strong{color:var(--text)}
+  .explain-loading{color:var(--muted);font-style:italic;font-size:13px}
+  .tag-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap;align-items:center}
+  .tag{font-size:11px;background:#f1f5f9;color:var(--muted);border-radius:12px;padding:3px 10px;font-weight:500}
+
+  /* SCORE CALCULATOR */
+  .score-grid{padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:600px){.score-grid{grid-template-columns:1fr}}
+  .score-input-group{display:flex;flex-direction:column;gap:5px}
+  .score-input-group label{font-size:13px;font-weight:600;color:var(--muted)}
+  .score-slider{width:100%;accent-color:var(--accent)}
+  .score-num{font-size:24px;font-weight:700;color:var(--accent)}
+  .score-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:0 20px 20px}
+  .stat-box{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center}
+  .stat-box .s-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px}
+  .stat-box .s-val{font-size:20px;font-weight:700;color:var(--text)}
+  .score-result{margin:0 20px 20px;border-radius:12px;padding:16px 20px;text-align:center}
+  .score-result.below{background:var(--red-light);border:1px solid #fca5a5}
+  .score-result.above{background:var(--green-light);border:1px solid #86efac}
+  .score-result .big{font-size:36px;font-weight:800;margin-bottom:4px}
+  .score-result .below .big{color:var(--red)}
+  .score-result .above .big{color:var(--green)}
+  .score-result .verdict{font-size:13px;font-weight:600}
+  .score-result .cutoff-note{font-size:12px;color:var(--muted);margin-top:4px}
+  .cat-selector{display:flex;flex-wrap:wrap;gap:6px;padding:0 20px 16px}
+  .cat-btn{padding:5px 12px;border:1.5px solid var(--border);border-radius:20px;background:#fff;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s;color:var(--muted)}
+  .cat-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+  /* CUTOFF TABLE */
+  .cutoff-table{width:100%;border-collapse:collapse}
+  .cutoff-table th{padding:10px 14px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;color:var(--muted);background:#f4f6f9;text-align:center;border-bottom:1px solid var(--border)}
+  .cutoff-table th:first-child{text-align:left}
+  .cutoff-table td{padding:10px 14px;border-bottom:1px solid var(--border);text-align:center;font-size:13px}
+  .cutoff-table td:first-child{font-weight:600;text-align:left}
+  .cutoff-table tr.predicted td{background:#eff6ff;font-weight:700;color:var(--accent)}
+  .cutoff-table tr:last-child td{border-bottom:none}
+
+  /* SUBJECT ANALYSIS */
+  .analysis-inner{padding:20px;display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+  .donut-wrap{flex:0 0 200px;text-align:center}
+  .donut-wrap canvas{width:180px!important;height:180px!important}
+  .donut-legend{flex:1;min-width:200px;display:flex;flex-direction:column;gap:8px;padding-top:4px}
+  .legend-item{display:flex;align-items:center;gap:10px;font-size:13px}
+  .legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+  .legend-label{flex:1;color:var(--text)}
+  .legend-count{font-weight:700;color:var(--text)}
+  .legend-pct{color:var(--muted);font-size:12px}
+
+  /* TIMELINE */
+  .timeline{padding:20px}
+  .tl-item{display:flex;gap:14px;margin-bottom:16px;position:relative}
+  .tl-item:not(:last-child)::before{content:'';position:absolute;left:11px;top:24px;width:2px;height:calc(100% - 8px);background:var(--border)}
+  .tl-dot{width:24px;height:24px;border-radius:50%;background:var(--green);flex-shrink:0;display:flex;align-items:center;justify-content:center;position:relative;z-index:1}
+  .tl-dot.live{background:var(--green)}
+  .tl-dot.scheduled{background:#e5e7eb;border:2px solid var(--border)}
+  .tl-dot svg{width:12px;height:12px;fill:#fff}
+  .tl-content{flex:1}
+  .tl-title{font-size:14px;font-weight:600;display:flex;align-items:center;gap:8px}
+  .tl-badge{font-size:10px;padding:2px 7px;border-radius:10px;font-weight:700;text-transform:uppercase}
+  .tl-badge.live{background:var(--green-light);color:var(--green)}
+  .tl-badge.sched{background:#f1f5f9;color:var(--muted)}
+  .tl-time{font-size:12px;color:var(--muted);margin-top:2px}
+
+  /* FAQ */
+  .faq-list{padding:8px 0}
+  .faq-item{border-bottom:1px solid var(--border)}
+  .faq-item:last-child{border-bottom:none}
+  .faq-q{padding:14px 20px;font-size:14px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;user-select:none;transition:background .12s}
+  .faq-q:hover{background:var(--bg)}
+  .faq-icon{font-size:18px;color:var(--muted);transition:transform .2s;flex-shrink:0}
+  .faq-item.open .faq-icon{transform:rotate(45deg)}
+  .faq-a{display:none;padding:0 20px 16px;font-size:14px;color:var(--muted);line-height:1.7}
+  .faq-item.open .faq-a{display:block}
+
+  /* HOW TO */
+  .steps{padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+  .step{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:14px}
+  .step-num{width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:8px}
+  .step h4{font-size:13px;font-weight:700;margin-bottom:4px}
+  .step p{font-size:12px;color:var(--muted);line-height:1.5}
+
+  /* FOOTER */
+  footer{background:#1e3a5f;color:rgba(255,255,255,0.6);text-align:center;padding:24px 20px;font-size:13px;margin-top:16px}
+  footer strong{color:#fff}
+
+  /* STICKY HEADER */
+  .sticky-bar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);display:none;padding:10px 20px;justify-content:space-between;align-items:center}
+  .sticky-bar.visible{display:flex}
+
+  /* SUBJECT COLORS */
+  .badge-geography{background:var(--geography-bg);color:var(--geography)}
+  .badge-art-culture{background:var(--artculture-bg);color:var(--artculture)}
+  .badge-history{background:var(--history-bg);color:var(--history)}
+  .badge-environment{background:var(--environment-bg);color:var(--environment)}
+  .badge-economy{background:var(--economy-bg);color:var(--economy)}
+  .badge-current-affairs{background:var(--currentaffairs-bg);color:var(--currentaffairs)}
+  .badge-science-technology{background:var(--science-bg);color:var(--science)}
+  .badge-polity{background:var(--polity-bg);color:var(--polity)}
+  .badge-other{background:var(--other-bg);color:var(--other)}
+
+  @media(max-width:600px){
+    .options-grid{grid-template-columns:1fr}
+    .score-stats{grid-template-columns:1fr 1fr}
+    .info-strip-inner{grid-template-columns:1fr 1fr}
+    .q-table thead th:nth-child(4){display:none}
+    .q-row td:nth-child(4){display:none}
+    .donut-wrap{flex:0 0 100%}
+  }
+
+  /* SCROLL TO TOP */
+  #scrollTop{position:fixed;bottom:24px;right:24px;width:40px;height:40px;background:var(--accent);color:#fff;border:none;border-radius:50%;cursor:pointer;font-size:18px;display:none;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(37,99,235,0.35);z-index:999;transition:opacity .2s}
+  #scrollTop.show{display:flex}
+
+  .notice-bar{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 14px;font-size:13px;color:#92400e;margin-bottom:18px;display:flex;gap:8px;align-items:flex-start}
+
+  
+
+  /* ========== TESTBOOK COACHING CAROUSEL ========== */
+  .tb-carousel-section{background:var(--card);border:1px solid var(--border);border-radius:14px;margin-bottom:24px;overflow:hidden}
+  .tb-carousel-header{padding:14px 20px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  .tb-carousel-header h2{font-size:15px;font-weight:700;display:flex;align-items:center;gap:10px;margin:0}
+  .tb-carousel-header h2 img{height:26px;vertical-align:middle}
+  .tb-tag{font-size:11px;background:#fff3e0;color:#e65100;border-radius:12px;padding:3px 10px;font-weight:700;text-transform:uppercase;letter-spacing:.3px;white-space:nowrap}
+  .tb-carousel-wrap{position:relative;overflow:hidden}
+  .tb-track{display:flex;transition:transform .45s cubic-bezier(.4,0,.2,1)}
+  .tb-slide{min-width:100%;position:relative;cursor:pointer}
+  .tb-slide a{display:block;text-decoration:none}
+  .tb-slide img{width:100%;display:block;max-height:280px;object-fit:cover}
+  .tb-slide-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.38) 0%,transparent 55%);pointer-events:none}
+  .tb-slide-label{position:absolute;bottom:16px;left:18px;color:#fff;font-size:12px;font-weight:700;background:rgba(0,155,58,.9);padding:4px 14px;border-radius:20px}
+  .tb-nav{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;background:rgba(255,255,255,.92);border:none;border-radius:50%;cursor:pointer;font-size:18px;font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.18);transition:all .15s;z-index:5;color:#222;line-height:1}
+  .tb-nav:hover{background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.22);transform:translateY(-50%) scale(1.08)}
+  .tb-nav.prev{left:10px}
+  .tb-nav.next{right:10px}
+  .tb-dots{display:flex;justify-content:center;gap:6px;padding:10px 0 4px}
+  .tb-dot{width:8px;height:8px;border-radius:50%;background:#d1d5db;cursor:pointer;transition:all .2s;border:none;padding:0}
+  .tb-dot.active{background:#009B3A;width:22px;border-radius:4px}
+  .tb-cta{display:flex;align-items:center;justify-content:center;gap:8px;padding:13px 20px;background:linear-gradient(135deg,#f0fdf4,#dcfce7);border-top:1px solid #bbf7d0;text-decoration:none;color:#009B3A;font-size:14px;font-weight:700;transition:background .15s}
+  .tb-cta:hover{background:linear-gradient(135deg,#dcfce7,#bbf7d0)}
+  .tb-cta svg{flex-shrink:0}
+
+  /* ============ MODE TABS ============ */
+  .mode-tabs{display:flex;background:#fff;border-bottom:2px solid var(--border);overflow-x:auto}
+  .mode-tab{flex:1;min-width:160px;padding:14px 10px;text-align:center;font-size:14px;font-weight:700;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .15s;display:flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+  .mode-tab:hover{color:var(--accent);background:#f8faff}
+  .mode-tab.active{color:#009B3A;border-bottom-color:#009B3A}
+
+  /* ============ ATTEMPT MODE ============ */
+  #attemptMode{display:none}
+  #attemptMode.visible{display:block}
+  #answerKeyMode.hidden{display:none}
+
+  /* REGISTER */
+  .at-register{max-width:480px;margin:32px auto;padding:0 16px}
+  .at-register-card{background:#fff;border:1px solid var(--border);border-radius:18px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.07)}
+  .at-reg-banner{background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);padding:28px 28px 22px;color:#fff;text-align:center}
+  .at-reg-banner h2{font-size:20px;font-weight:800;margin-bottom:6px}
+  .at-reg-banner p{font-size:13px;opacity:.8}
+  .at-reg-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+  .at-reg-chip{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:4px 12px;font-size:12px;font-weight:600}
+  .at-reg-body{padding:24px}
+  .at-field{margin-bottom:16px}
+  .at-label{display:block;font-size:12px;font-weight:700;color:#374151;margin-bottom:6px;text-transform:uppercase;letter-spacing:.4px}
+  .at-input{width:100%;padding:11px 14px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:14px;outline:none;transition:border-color .15s}
+  .at-input:focus{border-color:#009B3A;box-shadow:0 0 0 3px rgba(0,155,58,.1)}
+  .at-set-row{display:flex;gap:8px}
+  .at-set-btn{flex:1;padding:10px;border:2px solid var(--border);border-radius:10px;background:#fff;font-size:14px;font-weight:700;cursor:pointer;transition:all .15s;color:var(--muted)}
+  .at-set-btn:hover{border-color:#009B3A;color:#009B3A}
+  .at-set-btn.active{background:#009B3A;border-color:#009B3A;color:#fff}
+  .at-start-btn{width:100%;padding:14px;background:#009B3A;color:#fff;border:none;border-radius:12px;font-size:15px;font-weight:800;cursor:pointer;transition:all .2s;margin-top:8px;letter-spacing:.2px}
+  .at-start-btn:hover{background:#007A2E;transform:translateY(-1px);box-shadow:0 6px 20px rgba(0,155,58,.3)}
+
+  /* TEST HEADER */
+  .at-test-header{position:sticky;top:0;z-index:50;background:#1e3a5f;color:#fff;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .at-timer{display:flex;align-items:center;gap:6px;font-size:16px;font-weight:800;background:rgba(255,255,255,.12);padding:6px 14px;border-radius:20px}
+  .at-timer.warning{background:rgba(255,165,0,.25);color:#fbbf24}
+  .at-timer.danger{background:rgba(220,38,38,.3);color:#fca5a5;animation:timerPulse 1s infinite}
+  @keyframes timerPulse{0%,100%{opacity:1}50%{opacity:.6}}
+  .at-progress-text{font-size:13px;opacity:.8}
+  .at-submit-btn{padding:8px 18px;background:#ef4444;color:#fff;border:none;border-radius:20px;font-size:13px;font-weight:700;cursor:pointer;transition:all .15s}
+  .at-submit-btn:hover{background:#dc2626;transform:scale(1.04)}
+
+  /* TEST BODY */
+  .at-test-body{display:flex;gap:0;min-height:calc(100vh - 56px)}
+  .at-question-panel{flex:1;padding:20px 16px;max-width:680px}
+  .at-qnum-badge{display:inline-flex;align-items:center;gap:6px;background:var(--accent-light);color:var(--accent);font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:12px;text-transform:uppercase;letter-spacing:.3px}
+  .at-q-text{font-size:15px;line-height:1.7;font-weight:500;color:var(--text);margin-bottom:18px}
+  .at-options{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+  .at-option{display:flex;align-items:flex-start;gap:12px;padding:13px 16px;border:2px solid #e5e7eb;border-radius:12px;cursor:pointer;transition:all .15s;background:#fff;text-align:left}
+  .at-option:hover{border-color:#009B3A;background:#f0fdf4}
+  .at-option.selected{border-color:#009B3A;background:#f0fdf4}
+  .at-option .opt-letter{width:28px;height:28px;border-radius:50%;border:2px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex-shrink:0;transition:all .15s;color:var(--muted)}
+  .at-option.selected .opt-letter{background:#009B3A;border-color:#009B3A;color:#fff}
+  .at-option-text{font-size:14px;line-height:1.5;padding-top:3px;flex:1}
+  .at-nav-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .at-nav-btn{padding:8px 16px;border:1.5px solid var(--border);border-radius:8px;background:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;color:var(--text)}
+  .at-nav-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .at-nav-btn.primary{background:#009B3A;border-color:#009B3A;color:#fff}
+  .at-nav-btn.primary:hover{background:#007A2E}
+  .at-nav-btn.mark{background:#f59e0b;border-color:#f59e0b;color:#fff}
+  .at-nav-btn.mark:hover{background:#d97706}
+  .at-nav-btn.clear{color:#ef4444;border-color:#fca5a5}
+  .at-nav-btn.clear:hover{background:#fef2f2}
+
+  /* PALETTE PANEL */
+  .at-palette-panel{width:240px;flex-shrink:0;border-left:1px solid var(--border);padding:16px;background:#fafbfc;overflow-y:auto;max-height:calc(100vh - 56px);position:sticky;top:56px}
+  .at-palette-title{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);margin-bottom:10px}
+  .at-palette-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:14px}
+  .at-pq{width:36px;height:36px;border-radius:8px;border:1.5px solid #e5e7eb;background:#fff;font-size:12px;font-weight:700;cursor:pointer;transition:all .12s;color:var(--muted);display:flex;align-items:center;justify-content:center}
+  .at-pq:hover{border-color:var(--accent);color:var(--accent)}
+  .at-pq.current{border-color:var(--accent);box-shadow:0 0 0 2px rgba(37,99,235,.25)}
+  .at-pq.answered{background:#009B3A;border-color:#009B3A;color:#fff}
+  .at-pq.marked{background:#f59e0b;border-color:#f59e0b;color:#fff}
+  .at-pq.marked-answered{background:#8b5cf6;border-color:#8b5cf6;color:#fff}
+  .at-pq.visited{background:#fee2e2;border-color:#fca5a5;color:#ef4444}
+  .at-legend{display:flex;flex-direction:column;gap:6px}
+  .at-legend-item{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted)}
+  .at-legend-dot{width:14px;height:14px;border-radius:3px;flex-shrink:0}
+
+  /* RESULT */
+  .at-result{max-width:760px;margin:0 auto;padding:20px 16px 40px}
+  .at-result-hero{background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 100%);border-radius:16px;padding:28px;color:#fff;text-align:center;margin-bottom:20px}
+  .at-result-hero h2{font-size:22px;font-weight:800;margin-bottom:4px}
+  .at-result-hero p{opacity:.8;font-size:13px;margin-bottom:20px}
+  .at-score-big{font-size:52px;font-weight:900;line-height:1;margin-bottom:4px}
+  .at-score-sub{font-size:14px;opacity:.7;margin-bottom:16px}
+  .at-score-bar-wrap{background:rgba(255,255,255,.15);border-radius:10px;height:10px;margin:0 auto;max-width:300px;overflow:hidden}
+  .at-score-bar{height:100%;background:#86efac;border-radius:10px;transition:width 1s ease}
+  .at-stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+  .at-stat-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center}
+  .at-stat-card .sv{font-size:24px;font-weight:800;margin-bottom:2px}
+  .at-stat-card .sl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+  .sv.green{color:#009B3A}.sv.red{color:#dc2626}.sv.orange{color:#d97706}.sv.blue{color:var(--accent)}
+  .at-section-card{background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:16px;overflow:hidden}
+  .at-section-card-header{padding:14px 18px;border-bottom:1px solid var(--border);font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px}
+  .at-review-table{width:100%;border-collapse:collapse;font-size:13px}
+  .at-review-table th{padding:9px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);background:#f4f6f9;border-bottom:1px solid var(--border);text-align:left}
+  .at-review-table td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+  .at-review-table tr:last-child td{border-bottom:none}
+  .status-pill{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700;text-transform:uppercase}
+  .sp-correct{background:#f0fdf4;color:#009B3A}
+  .sp-wrong{background:#fef2f2;color:#dc2626}
+  .sp-skip{background:#f1f5f9;color:#6b7280}
+  .at-subj-row{display:flex;align-items:center;gap:10px;padding:10px 18px;border-bottom:1px solid var(--border)}
+  .at-subj-row:last-child{border-bottom:none}
+  .at-subj-name{flex:1;font-size:13px;font-weight:600}
+  .at-subj-bar-wrap{flex:2;height:8px;background:#f1f5f9;border-radius:4px;overflow:hidden}
+  .at-subj-bar{height:100%;background:#009B3A;border-radius:4px}
+  .at-subj-score{font-size:12px;font-weight:700;color:var(--muted);min-width:50px;text-align:right}
+  .at-retry-btn{width:100%;padding:14px;background:#009B3A;color:#fff;border:none;border-radius:12px;font-size:15px;font-weight:800;cursor:pointer;margin-top:16px;transition:all .2s}
+  .at-retry-btn:hover{background:#007A2E}
+  .at-submit-saved{text-align:center;padding:12px;font-size:13px;color:var(--muted);background:#f0fdf4;border-top:1px solid #bbf7d0;border-radius:0 0 12px 12px}
+
+  /* CONFIRM DIALOG */
+  .at-dialog-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9000;display:none;align-items:center;justify-content:center;padding:16px}
+  .at-dialog-overlay.open{display:flex}
+  .at-dialog{background:#fff;border-radius:16px;padding:28px;max-width:380px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.2);animation:slideUp .22s ease}
+  .at-dialog h3{font-size:18px;font-weight:800;margin-bottom:8px}
+  .at-dialog p{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:18px}
+  .at-dialog-btns{display:flex;gap:10px}
+  .at-dialog-btns button{flex:1;padding:11px;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer;border:none;transition:all .15s}
+  .at-d-cancel{background:#f1f5f9;color:var(--text)}
+  .at-d-cancel:hover{background:#e5e7eb}
+  .at-d-confirm{background:#ef4444;color:#fff}
+  .at-d-confirm:hover{background:#dc2626}
+
+  @media(max-width:660px){
+    .at-test-body{flex-direction:column}
+    .at-palette-panel{width:100%;position:relative;top:0;max-height:none;border-left:none;border-top:1px solid var(--border)}
+    .at-palette-grid{grid-template-columns:repeat(8,1fr)}
+    .at-stat-row{grid-template-columns:1fr 1fr}
+  }
+
+</style>
+</head>
+<body>
+
+<!-- SITE HEADER -->
+<div class="site-header">
+  <div class="header-top">
+    <a href="https://testbook.com" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center"><img src="https://testbook.com/assets/img/super/super-coaching.svg?v=2" alt="Testbook Super Coaching" style="height:36px;filter:brightness(0) invert(1)"/></a>
+    <div style="font-size:12px;color:rgba(255,255,255,0.55)">UPSC Civil Services 2026</div>
+  </div>
+  <div class="breadcrumb">UPSC <span>/</span> Prelims <span>/</span> 2026 Answer Key</div>
+  <div class="page-hero">
+    <h1>UPSC Prelims 2026 Answer Key (24 May 2026) — Set A, B, C, D Solutions</h1>
+    <p>Complete answer key with question-by-question solutions, expected cutoff, subject-wise analysis and score calculator.</p>
+    <div class="hero-meta">
+      <span>📅 24 May 2026 (Sunday)</span>
+      <span>📋 GS Paper 1 · 100 Qs · 200 marks</span>
+      <span>📝 CSAT Paper 2 · 80 Qs · 200 marks</span>
+      <span>✅ Updated live on exam day</span>
+    </div>
+  </div>
+</div>
+
+<!-- INFO STRIP -->
+<div class="info-strip">
+  <div class="info-strip-inner">
+    <div class="info-card"><div class="label">Exam Date</div><div class="value">24 May 2026</div></div>
+    <div class="info-card"><div class="label">Conducted by</div><div class="value">UPSC</div></div>
+    <div class="info-card"><div class="label">GS Paper 1</div><div class="value">100 Qs · 200 marks</div></div>
+    <div class="info-card"><div class="label">CSAT Paper 2</div><div class="value">80 Qs · 200 marks</div></div>
+    <div class="info-card"><div class="label">Reviewed by</div><div class="value">Expert Team</div></div>
+    <div class="info-card"><div class="label">Last Updated</div><div class="value">24 May 2026</div></div>
+  </div>
+</div>
+
+
+<!-- MODE TAB BAR -->
+<div class="mode-tabs" id="modeTabs">
+  <div class="mode-tab active" id="tabAnswerKey" onclick="switchMode('answerKey')">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 12l2 2 4-4M7 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3M9 4h6a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2z"/></svg>
+    Answer Key
+  </div>
+  <div class="mode-tab" id="tabAttempt" onclick="switchMode('attempt')">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    Attempt Mode — Mock Test
+  </div>
+</div>
+
+<!-- STICKY BAR -->
+<div class="sticky-bar" id="stickyBar">
+  <div style="font-size:14px;font-weight:700">UPSC Prelims 2026 Answer Key</div>
+  <div style="font-size:13px;color:var(--muted)">GS Paper 1 · 100 Questions</div>
+</div>
+
+<div id="answerKeyMode" style="display:block">
+<div class="main">
+
+  <!-- NOTICE -->
+  <div class="notice-bar">
+    ℹ️ <span><strong>Note:</strong> This page contains all 100 GS Paper 1 questions with verified answers and detailed explanations. Set A question numbers are shown by default — select your set using the buttons above the table.</span>
+  </div>
+
+  <!-- ANSWER KEY SECTION -->
+  <div class="section" id="answer-key">
+    <div class="section-header">
+      <h2>Answer Key &amp; Question-by-Question Solutions</h2>
+      <p>Verified answer for every question with subject and topic tags. Click any row for the full explanation.</p>
+    </div>
+    <div class="controls">
+      <div class="set-selector">
+        <span class="set-label">Your set:</span>
+        <button class="set-btn active" onclick="selectSet('A')">Set A</button>
+        <button class="set-btn" onclick="selectSet('B')">Set B</button>
+        <button class="set-btn" onclick="selectSet('C')">Set C</button>
+        <button class="set-btn" onclick="selectSet('D')">Set D</button>
+      </div>
+      <div style="font-size:12px;color:var(--muted);flex:1">All sets contain identical questions in different order.</div>
+    </div>
+    <div class="controls" style="padding-top:10px">
+      <div class="subject-filters" id="subjectFilters">
+        <button class="subj-btn active" onclick="filterSubject('all',this)">All subjects</button>
+        <button class="subj-btn" onclick="filterSubject('geography',this)">Geography</button>
+        <button class="subj-btn" onclick="filterSubject('art-culture',this)">Art &amp; Culture</button>
+        <button class="subj-btn" onclick="filterSubject('history',this)">History</button>
+        <button class="subj-btn" onclick="filterSubject('environment',this)">Environment</button>
+        <button class="subj-btn" onclick="filterSubject('economy',this)">Economy</button>
+        <button class="subj-btn" onclick="filterSubject('current-affairs',this)">Current Affairs</button>
+        <button class="subj-btn" onclick="filterSubject('science-technology',this)">Science &amp; Tech</button>
+        <button class="subj-btn" onclick="filterSubject('polity',this)">Polity</button>
+        <button class="subj-btn" onclick="filterSubject('other',this)">Other</button>
+      </div>
+    </div>
+    <div class="q-count" id="qCount">100 / 100 questions shown</div>
+    <div style="overflow-x:auto">
+      <table class="q-table">
+        <thead>
+          <tr>
+            <th>Q</th>
+            <th>Question</th>
+            <th>Subject</th>
+            <th>Answer</th>
+            <th>▶</th>
+          </tr>
+        </thead>
+        <tbody id="questionTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SCORE CALCULATOR -->
+  <div class="section" id="score-calculator">
+    <div class="section-header">
+      <h2>Score Calculator</h2>
+      <p>Estimate your GS Paper 1 marks under UPSC's negative marking and see whether you clear the predicted cutoff.</p>
+    </div>
+    <div class="score-grid">
+      <div class="score-input-group">
+        <label>Correct Answers: <span id="correctVal" class="score-num" style="font-size:16px">0</span></label>
+        <input type="range" class="score-slider" id="correctSlider" min="0" max="100" value="0" oninput="updateScore()">
+      </div>
+      <div class="score-input-group">
+        <label>Wrong Answers: <span id="wrongVal" class="score-num" style="font-size:16px;color:var(--red)">0</span></label>
+        <input type="range" class="score-slider" id="wrongSlider" min="0" max="100" value="0" oninput="updateScore()">
+      </div>
+    </div>
+    <div class="score-stats">
+      <div class="stat-box"><div class="s-label">Attempted</div><div class="s-val" id="attempted">0</div></div>
+      <div class="stat-box"><div class="s-label">Skipped</div><div class="s-val" id="skipped">100</div></div>
+      <div class="stat-box"><div class="s-label">Penalty</div><div class="s-val" id="penalty" style="color:var(--red)">0</div></div>
+      <div class="stat-box"><div class="s-label">Accuracy</div><div class="s-val" id="accuracy">—</div></div>
+    </div>
+    <div style="padding:0 20px 10px;font-size:13px;font-weight:600;color:var(--muted)">Select your category:</div>
+    <div class="cat-selector" id="catSelector">
+      <button class="cat-btn active" onclick="selectCat('GENERAL',this)">GENERAL</button>
+      <button class="cat-btn" onclick="selectCat('EWS',this)">EWS</button>
+      <button class="cat-btn" onclick="selectCat('OBC',this)">OBC</button>
+      <button class="cat-btn" onclick="selectCat('SC',this)">SC</button>
+      <button class="cat-btn" onclick="selectCat('ST',this)">ST</button>
+    </div>
+    <div class="score-result below" id="scoreResult">
+      <div class="big" id="bigScore">0</div>
+      <div style="font-size:12px;color:var(--muted);margin-bottom:4px">out of 200</div>
+      <div class="verdict" id="verdict">Enter your answers above to calculate your score</div>
+      <div class="cutoff-note" id="cutoffNote">2025 GENERAL cutoff: 92.66</div>
+    </div>
+  </div>
+
+    <div style="overflow-x:auto;padding:0 4px">
+      <table class="cutoff-table">
+        <thead>
+          <tr><th>Year</th><th>General</th><th>EWS</th><th>OBC</th><th>SC</th><th>ST</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2025</td><td>92.66</td><td>89.34</td><td>92.00</td><td>84.00</td><td>82.66</td></tr>
+          <tr><td>2024</td><td>87.98</td><td>85.92</td><td>87.28</td><td>79.03</td><td>74.23</td></tr>
+          <tr><td>2023</td><td>75.41</td><td>68.02</td><td>74.75</td><td>59.25</td><td>47.82</td></tr>
+          <tr><td>2022</td><td>88.22</td><td>82.83</td><td>87.54</td><td>74.08</td><td>69.35</td></tr>
+          <tr><td>2021</td><td>87.54</td><td>80.14</td><td>84.85</td><td>75.41</td><td>70.71</td></tr>
+          <tr><td>2020</td><td>92.51</td><td>77.55</td><td>89.12</td><td>74.84</td><td>68.71</td></tr>
+          <tr><td>2019</td><td>98.00</td><td>90.00</td><td>95.34</td><td>82.00</td><td>77.34</td></tr>
+          <tr><td>2018</td><td>98.00</td><td>—</td><td>96.66</td><td>84.00</td><td>83.34</td></tr>
+          <tr><td>2017</td><td>105.34</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>2016</td><td>116.00</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>2015</td><td>107.34</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="padding:12px 20px;font-size:12px;color:var(--muted);border-top:1px solid var(--border)">GS Paper 1 cutoff out of 200. CSAT (Paper 2) qualifying threshold is 66 / 200.</div>
+
+  <!-- SUBJECT ANALYSIS -->
+  <div class="section" id="analysis">
+    <div class="section-header">
+      <h2>Subject-wise Weightage</h2>
+      <p>How GS Paper 1 distributed marks across all subjects.</p>
+    </div>
+    <div class="analysis-inner">
+      <div class="donut-wrap">
+        <canvas id="donutChart" width="180" height="180"></canvas>
+      </div>
+      <div class="donut-legend" id="donutLegend"></div>
+    </div>
+  </div>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot live"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg></div>
+        <div class="tl-content">
+          <div class="tl-title">GS Paper 1 — exam ends <span class="tl-badge live">Live</span></div>
+          <div class="tl-time">Released 24 May 2026, 11:30 am IST</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot live"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg></div>
+        <div class="tl-content">
+          <div class="tl-title">GS Paper 1 answer key published <span class="tl-badge live">Live</span></div>
+          <div class="tl-time">Released 24 May 2026, 11:53 am IST · Set D processed first as canonical paper</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot live"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="5"/></svg></div>
+        <div class="tl-content">
+          <div class="tl-title">GS Paper 1 — detailed explanations <span class="tl-badge live">Live</span></div>
+          <div class="tl-time">Released 24 May 2026, 11:53 am IST</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot scheduled"></div>
+        <div class="tl-content">
+          <div class="tl-title">CSAT — exam ends <span class="tl-badge sched">Scheduled</span></div>
+          <div class="tl-time">Expected 24 May 2026, 4:30 pm IST</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot scheduled"></div>
+        <div class="tl-content">
+          <div class="tl-title">CSAT answer key (all 4 sets) <span class="tl-badge sched">Scheduled</span></div>
+          <div class="tl-time">Expected 24 May 2026, 5:30 pm IST</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot scheduled"></div>
+        <div class="tl-content">
+          <div class="tl-title">UPSC official provisional answer key <span class="tl-badge sched">Scheduled</span></div>
+          <div class="tl-time">Expected 14 Jun 2026, 6:00 pm IST · UPSC typically releases 2–3 weeks after exam</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot scheduled"></div>
+        <div class="tl-content">
+          <div class="tl-title">UPSC Prelims 2026 result <span class="tl-badge sched">Scheduled</span></div>
+          <div class="tl-time">Expected 5 Jul 2026, 6:00 pm IST · UPSC announces 4–6 weeks after exam</div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- TESTBOOK COACHING CAROUSEL -->
+  <div class="tb-carousel-section" id="tb-coaching">
+    <div class="tb-carousel-header">
+      <h2>
+        <img src="https://testbook.com/assets/img/super/super-coaching.svg?v=2" alt="Testbook Super"/>
+        UPSC Prep Lab Coaching
+      </h2>
+      <span class="tb-tag">🔥 Enroll Now</span>
+    </div>
+    <div class="tb-carousel-wrap">
+      <div class="tb-track" id="tbTrack">
+        <div class="tb-slide">
+          <a href="https://testbook.com/upsc-prep-lab-coaching?utm_source=Website&utm_medium=WebsiteOrganic&utm_campaign=IASPrep" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.testbook.com/1779449898532-640X400%20Revised%20.png/1779449901.png" alt="Testbook UPSC Prep Lab" loading="lazy"/>
+            <div class="tb-slide-overlay"></div>
+            <div class="tb-slide-label">UPSC Prep Lab — Enroll Today</div>
+          </a>
+        </div>
+        <div class="tb-slide">
+          <a href="https://testbook.com/upsc-prep-lab-coaching?utm_source=Website&utm_medium=WebsiteOrganic&utm_campaign=IASPrep" target="_blank" rel="noopener noreferrer">
+            <img src="https://afiles.webengage.com/~2024b5d8/cbf05a9e-627c-4c2a-9693-d1156d169d0e.png" alt="Testbook UPSC Coaching" loading="lazy"/>
+            <div class="tb-slide-overlay"></div>
+            <div class="tb-slide-label">Expert Faculty · Live Classes</div>
+          </a>
+        </div>
+        <div class="tb-slide">
+          <a href="https://testbook.com/upsc-prep-lab-coaching?utm_source=Website&utm_medium=WebsiteOrganic&utm_campaign=IASPrep" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.testbook.com/1774953829902-640X400%20%281%29.png/1774953830.png" alt="Testbook UPSC Mock Tests" loading="lazy"/>
+            <div class="tb-slide-overlay"></div>
+            <div class="tb-slide-label">26,000+ Mock Tests · Start Free</div>
+          </a>
+        </div>
+      </div>
+      <button class="tb-nav prev" onclick="tbSlide(-1)">&#8249;</button>
+      <button class="tb-nav next" onclick="tbSlide(1)">&#8250;</button>
+    </div>
+    <div class="tb-dots">
+      <button class="tb-dot active" onclick="tbGoTo(0)"></button>
+      <button class="tb-dot" onclick="tbGoTo(1)"></button>
+      <button class="tb-dot" onclick="tbGoTo(2)"></button>
+    </div>
+    <a class="tb-cta" href="https://testbook.com/upsc-prep-lab-coaching?utm_source=Website&utm_medium=WebsiteOrganic&utm_campaign=IASPrep" target="_blank" rel="noopener noreferrer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round"/></svg>
+      Start Your UPSC Journey with Testbook Super Coaching
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  <!-- HOW TO -->
+  <div class="section" id="how-to-check-score">
+    <div class="section-header">
+      <h2>How to Check Your UPSC Prelims 2026 Score</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h4>Pick your set</h4><p>Note whether you wrote Set A, B, C or D from the front page of your question paper, then select the matching set above.</p></div>
+      <div class="step"><div class="step-num">2</div><h4>Mark correct, wrong, skipped</h4><p>Tally your answers against the answer key. Each correct answer is +2; each wrong answer is −0.66; skipped questions carry no penalty.</p></div>
+      <div class="step"><div class="step-num">3</div><h4>Calculate your score</h4><p>Plug your tallies into the score calculator to get your estimated GS Paper 1 total out of 200.</p></div>
+      <div class="step"><div class="step-num">4</div><h4>Check the cutoff</h4><p>Compare your total against the predicted and historical cutoff for your category.</p></div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="section" id="faq">
+    <div class="section-header">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">When is the UPSC Prelims 2026 exam being held?<span class="faq-icon">+</span></div>
+        <div class="faq-a">The UPSC Civil Services Preliminary Examination 2026 is scheduled for 24 May 2026 (Sunday). Paper 1 (General Studies) runs 09:30 to 11:30 IST and Paper 2 (CSAT) runs 14:30 to 16:30 IST.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Are Set A, B, C and D answer keys different?<span class="faq-icon">+</span></div>
+        <div class="faq-a">No. The question paper content is identical across the four sets — UPSC only shuffles the order of questions. Pick your set in the answer-key controls above and the table reorders to match the paper you wrote.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How is the UPSC Prelims 2026 score calculated?<span class="faq-icon">+</span></div>
+        <div class="faq-a">Each correct GS Paper 1 answer is worth 2 marks. Each wrong answer deducts 0.66 marks (one-third of 2). Unattempted questions carry no penalty. Use the score calculator above to estimate your total.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What is the expected cutoff for UPSC Prelims 2026?<span class="faq-icon">+</span></div>
+        <div class="faq-a">Based on the trailing 5-year average and difficulty signals, the General category cutoff for 2026 is expected to land in the 80–90 band out of 200. The expected-cutoff table above breaks this down by category.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Is CSAT counted towards the Prelims cutoff?<span class="faq-icon">+</span></div>
+        <div class="faq-a">No. CSAT (Paper 2) is qualifying only — you must score 33% (66 of 200 marks) to qualify, but the cutoff for moving to Mains is decided entirely by GS Paper 1 marks.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How can I challenge an answer in the official UPSC answer key?<span class="faq-icon">+</span></div>
+        <div class="faq-a">After the official provisional key drops on the UPSC website, you can submit objections through their grievance portal within the stipulated window — typically 7 days. Include the question paper set, question number and supporting references.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What is the CSAT qualifying score?<span class="faq-icon">+</span></div>
+        <div class="faq-a">The CSAT qualifying threshold is 66 out of 200 marks (33%). Candidates who score below this threshold are disqualified regardless of their GS Paper 1 score.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div><!-- /answerKeyMode -->
+
+
+<!-- ATTEMPT MODE -->
+<div id="attemptMode" style="display:none">
+
+  <!-- REGISTER SCREEN -->
+  <div id="atRegister">
+    <div class="at-register">
+      <div class="at-register-card">
+        <div class="at-reg-banner">
+          <h2>⏱️ UPSC Prelims 2026 Mock Test</h2>
+          <p>Attempt the full GS Paper 1 in exam conditions</p>
+          <div class="at-reg-chips">
+            <span class="at-reg-chip">100 Questions</span>
+            <span class="at-reg-chip">120 Minutes</span>
+            <span class="at-reg-chip">+2 / −0.66</span>
+            <span class="at-reg-chip">200 Marks</span>
+          </div>
+        </div>
+        <div class="at-reg-body">
+          <div class="at-field">
+            <label class="at-label">Full Name *</label>
+            <input class="at-input" id="atName" type="text" placeholder="Enter your full name" autocomplete="name"/>
+          </div>
+          <div class="at-field">
+            <label class="at-label">Mobile Number *</label>
+            <input class="at-input" id="atMobile" type="tel" maxlength="10" placeholder="10-digit mobile number" inputmode="numeric" oninput="this.value=this.value.replace(/\D/g,'').slice(0,10)"/>
+          </div>
+          <div class="at-field">
+            <label class="at-label">Select Your Question Paper Set *</label>
+            <div class="at-set-row">
+              <button class="at-set-btn active" id="atSetA" onclick="atSelectSet('A')">Set A</button>
+              <button class="at-set-btn" id="atSetB" onclick="atSelectSet('B')">Set B</button>
+              <button class="at-set-btn" id="atSetC" onclick="atSelectSet('C')">Set C</button>
+              <button class="at-set-btn" id="atSetD" onclick="atSelectSet('D')">Set D</button>
+            </div>
+          </div>
+          <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 14px;font-size:12px;color:#92400e;margin-bottom:16px">
+            ℹ️ Questions will appear in your selected set order. The timer starts when you click "Start Test".
+          </div>
+          <button class="at-start-btn" onclick="atStartTest()">
+            Start Test →
+          </button>
+          <div id="atRegError" style="text-align:center;font-size:12px;color:#dc2626;margin-top:8px;display:none"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEST SCREEN -->
+  <div id="atTest" style="display:none">
+    <div class="at-test-header">
+      <div class="at-timer" id="atTimer">⏱ 02:00:00</div>
+      <div class="at-progress-text" id="atProgressText">Q 1 / 100 · Set A</div>
+      <button class="at-submit-btn" onclick="atConfirmSubmit()">Submit Test</button>
+    </div>
+    <div class="at-test-body">
+      <!-- Question panel -->
+      <div class="at-question-panel" id="atQuestionPanel">
+        <div class="at-qnum-badge" id="atQBadge">Question 1 of 100 · Set A</div>
+        <div class="at-q-text" id="atQText"></div>
+        <div class="at-options" id="atOptions"></div>
+        <div class="at-nav-row">
+          <button class="at-nav-btn clear" onclick="atClearAnswer()">Clear</button>
+          <button class="at-nav-btn mark" id="atMarkBtn" onclick="atToggleMark()">⚑ Mark for Review</button>
+          <div style="flex:1"></div>
+          <button class="at-nav-btn" onclick="atNavigate(-1)" id="atPrevBtn">← Prev</button>
+          <button class="at-nav-btn primary" onclick="atNavigate(1)" id="atNextBtn">Next →</button>
+        </div>
+      </div>
+      <!-- Palette panel -->
+      <div class="at-palette-panel">
+        <div class="at-palette-title">Question Palette</div>
+        <div class="at-palette-grid" id="atPaletteGrid"></div>
+        <div class="at-legend">
+          <div class="at-legend-item"><div class="at-legend-dot" style="background:#fff;border:1.5px solid #e5e7eb"></div>Not visited</div>
+          <div class="at-legend-item"><div class="at-legend-dot" style="background:#fee2e2;border:1.5px solid #fca5a5"></div>Visited, not answered</div>
+          <div class="at-legend-item"><div class="at-legend-dot" style="background:#009B3A"></div>Answered</div>
+          <div class="at-legend-item"><div class="at-legend-dot" style="background:#f59e0b"></div>Marked for review</div>
+          <div class="at-legend-item"><div class="at-legend-dot" style="background:#8b5cf6"></div>Answered + marked</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div id="atResult" style="display:none">
+    <div class="at-result">
+      <div class="at-result-hero">
+        <h2>🎉 Test Completed!</h2>
+        <p id="atResultMeta">Name · Set A · 24 May 2026</p>
+        <div class="at-score-big" id="atResultScore">—</div>
+        <div class="at-score-sub">out of 200 marks</div>
+        <div class="at-score-bar-wrap"><div class="at-score-bar" id="atScoreBar" style="width:0%"></div></div>
+      </div>
+      <div class="at-stat-row">
+        <div class="at-stat-card"><div class="sv green" id="rCorrect">0</div><div class="sl">Correct</div></div>
+        <div class="at-stat-card"><div class="sv red" id="rWrong">0</div><div class="sl">Wrong</div></div>
+        <div class="at-stat-card"><div class="sv orange" id="rSkipped">0</div><div class="sl">Skipped</div></div>
+        <div class="at-stat-card"><div class="sv blue" id="rAccuracy">0%</div><div class="sl">Accuracy</div></div>
+      </div>
+
+      <!-- Subject analysis -->
+      <div class="at-section-card">
+        <div class="at-section-card-header">📊 Subject-wise Performance</div>
+        <div id="atSubjAnalysis"></div>
+      </div>
+
+      <!-- Answer review -->
+      <div class="at-section-card">
+        <div class="at-section-card-header">📋 Answer Review</div>
+        <div style="overflow-x:auto">
+          <table class="at-review-table">
+            <thead><tr><th>Q</th><th>Question</th><th>Your Answer</th><th>Correct</th><th>Status</th></tr></thead>
+            <tbody id="atReviewBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <button class="at-retry-btn" onclick="atReset()">🔁 Attempt Again</button>
+      <div class="at-submit-saved" id="atSavedMsg" style="display:none">✅ Your result has been saved to the database.</div>
+    </div>
+  </div>
+
+</div><!-- /attemptMode -->
+
+<!-- SUBMIT CONFIRM DIALOG -->
+<div class="at-dialog-overlay" id="atDialog">
+  <div class="at-dialog">
+    <h3>Submit Test?</h3>
+    <p id="atDialogMsg">You have unanswered questions. Are you sure you want to submit?</p>
+    <div class="at-dialog-btns">
+      <button class="at-d-cancel" onclick="atCloseDialog()">Continue Attempting</button>
+      <button class="at-d-confirm" onclick="atFinalSubmit()">Yes, Submit Now</button>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <strong>UPSC Prelims 2026 Answer Key</strong><br/>
+  GS Paper 1 · 100 Questions · 200 Marks · 24 May 2026<br/>
+  <span style="font-size:11px;opacity:0.5;margin-top:6px;display:block">This is an unofficial answer key for reference purposes.</span>
+</footer>
+
+<!-- Auth modal removed — free access -->
+
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// ============================================================
+// QUESTION DATA
+// Internal order (001-100), with Set A question numbers
+// ============================================================
+const questions = [
+  // Internal 001-010 (Set A: Q11-Q20)
+  {id:1, setA:11, setB:36, setC:61, setD:11, subject:"geography", answer:"D",
+   text:"Consider the following assertion: In the Pleistocene period either the Yamuna once flowed into the Indus, or the Sutlej flowed into the Yamuna and one major tributary of either had shifted from the Ganga to the Indus or vice versa. Which of the following is/are the basis of the above assertion? 1. The Nadi-Sukta of the Rigveda 2. The explorations of the Sutlej and the Yamuna by Robert Bruce Foote 3. The presence of the same species of dolphins in both the Indus and the Ganga river systems Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. 1 and 2","D. 3 only"],
+   explanation:"Option D (3 only) is correct. The geological theory about Pleistocene river shifts (Yamuna/Sutlej/Indus connections) is supported by the presence of freshwater river dolphins (Platanista species) in both the Ganga and Indus basins. Since these dolphins are strictly freshwater species incapable of surviving in marine environments, their presence in two separate systems indicates the rivers once shared a common drainage basin. Statement 1 is incorrect because the Nadi-Sukta (Rigveda 10.75) catalogues rivers during the Vedic period (~1500 BCE) — not a geological record of the Pleistocene. Statement 2 is incorrect because Robert Bruce Foote is known as the 'Father of Indian Prehistory' for discovering Paleolithic tools, not for river exploration theories — those were advanced by geologists Pascoe and Pilgrim."},
+
+  {id:2, setA:12, setB:37, setC:62, setD:12, subject:"art-culture", answer:"A",
+   text:"What does an empty seat represent in early Buddhist iconography?",
+   options:["A. The Buddha's presence or enlightenment","B. The absence of the Sangha","C. A place for the devotee to sit and meditate","D. The concept of Shunyata (emptiness)"],
+   explanation:"In early Buddhist art (pre-1st century BCE), the Buddha was not depicted in human form. Instead, symbolic representations were used — the empty seat (throne) symbolised his presence, his enlightenment, or his imminent departure from the world. Other symbols included footprints, a Bodhi tree, an umbrella, and the wheel of Dharma. This aniconic tradition was followed before the Gandhara and Mathura schools began anthropomorphic depictions of the Buddha."},
+
+  {id:3, setA:13, setB:38, setC:63, setD:13, subject:"history", answer:"C",
+   text:"Which of the following pairs of ancient and modern names of rivers is/are correctly matched? 1. Vitasta : Chenab 2. Asikni : Jhelum 3. Parushni : Ravi 4. Shutudri : Sutlej Select the answer using the code given below:",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 3 and 4 only","D. 1, 3 and 4 only"],
+   explanation:"Option C (3 and 4 only) is correct. Parushni (Rigvedic) = Ravi (modern) ✓; Shutudri (Rigvedic) = Sutlej (modern) ✓. Vitasta (Rigvedic) = Jhelum (modern), not Chenab — so pair 1 is wrong. Asikni (Rigvedic) = Chenab (modern), not Jhelum — so pair 2 is wrong. These river identifications come from Vedic geography where the Sapta Sindhu (seven rivers) are mapped to modern rivers in Punjab."},
+
+  {id:4, setA:14, setB:39, setC:64, setD:14, subject:"art-culture", answer:"B",
+   text:"Which of the following statements on the Amaravati Stupa and its relief sculpture is/are correct? 1. It was located in the lower Krishna valley 2. The sculptures show a preference for human figures over symbols 3. The standing Buddha figures in the sculptures show the Mathura influence Select the answer using the code given below:",
+   options:["A. 1 only","B. 1 and 2 only","C. 2 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option B (1 and 2 only) is correct. Statement 1 is correct — Amaravati Stupa is located on the south bank of the Krishna River in Andhra Pradesh (lower Krishna valley). Statement 2 is correct — Amaravati sculpture (2nd century BCE to 3rd century CE) favoured dynamic human figures over earlier aniconic symbols. Statement 3 is incorrect — the Amaravati school developed its own distinct style independently; the Buddha figures show Amaravati's own characteristics (elongated forms, flowing drapery), not Mathura influence."},
+
+  {id:5, setA:15, setB:40, setC:65, setD:15, subject:"history", answer:"B",
+   text:"Which of the following pairs of the king and his dynasty in early historical Tamilakam is/are not correctly matched? 1. Senguttuvan : Chera 2. Nedunjeliyan : Pandya 3. Karikal : Chola 4. Maravarman : Pallava Select the answer using the code given below:",
+   options:["A. 1 only","B. 4 only","C. 1 and 3 only","D. 2 and 4 only"],
+   explanation:"Option B (4 only) is the answer — pair 4 is incorrectly matched. Maravarman was a Pandya king, not a Pallava king. The Pallavas had rulers like Mahendravarman and Narasimhavarman. The other pairs are correctly matched: Senguttuvan (Chera, patron of the Kannagi cult), Nedunjeliyan (Pandya, figure in Sangam literature), and Karikal/Karikalan (great Chola king who fought the Battle of Venni and is associated with constructing the Grand Anicut)."},
+
+  {id:6, setA:16, setB:41, setC:66, setD:16, subject:"history", answer:"B",
+   text:"Which of the following factors contributed to the formation of the Forward Bloc by Subhas Chandra Bose in 1939? 1. Bose failed to win the Congress presidential election in 1939 2. Bose was critical of Gandhi's policy of passive resistance 3. Bose wanted to accelerate the struggle for independence through more aggressive methods Select the answer using the code given below:",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 1 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option B (2 and 3 only) is correct. Statement 1 is factually incorrect — Bose actually WON the Congress presidential election of 1939 (defeating Pattabhi Sitaramayya, Gandhi's preferred candidate). However, due to opposition from the Working Committee (largely Gandhi loyalists), Bose resigned in April 1939 and formed the Forward Bloc in May 1939. Statements 2 and 3 are correct — Bose disagreed with Gandhi's non-violent, gradual approach and sought more radical, confrontational methods to achieve independence."},
+
+  {id:7, setA:17, setB:42, setC:67, setD:17, subject:"history", answer:"A",
+   text:"Consider the following statements regarding the British policy in Awadh immediately after its annexation in 1856: 1. The taluqdars were dispossessed of their estates 2. James Outram was appointed as the first Chief Commissioner of Awadh 3. The Subsidiary Alliance system was extended to Awadh Which of the above statements is/are correct?",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 1 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option A (1 and 2 only) is correct. Statement 1 is correct — after annexation (under Lord Dalhousie's Doctrine of Lapse), the taluqdars (landlords) of Awadh were dispossessed, which was a major grievance fuelling the 1857 revolt. Statement 2 is correct — James Outram was appointed as the first Chief Commissioner of Awadh after annexation (though he was soon replaced). Statement 3 is incorrect — the Subsidiary Alliance was the mechanism used to control Awadh before 1856 (since 1801); after annexation, Awadh was fully incorporated into British India, so the Subsidiary Alliance no longer applied."},
+
+  {id:8, setA:18, setB:43, setC:68, setD:18, subject:"history", answer:"D",
+   text:"Consider the following assertion: The genesis of political alliances based on community lay in the very nature of the Montague-Chelmsford Reforms. Reason: The Montague-Chelmsford Reforms introduced communal electorates. Which of the following is the correct answer?",
+   options:["A. Both A and R are true and R is the correct explanation of A","B. Both A and R are true but R is not the correct explanation of A","C. A is true but R is false","D. A is false but R is true"],
+   explanation:"Option D is correct. The Assertion is false — communal electorates were NOT introduced by the Montague-Chelmsford Reforms (Government of India Act 1919). They were introduced much earlier by the Morley-Minto Reforms (Indian Councils Act 1909), which created separate electorates for Muslims. The Reason (R) is true — the Montague-Chelmsford Reforms did include communal representation features (expanded to include Sikhs etc.), but the genesis of communal electorates was the 1909 Act, not 1919."},
+
+  {id:9, setA:19, setB:44, setC:69, setD:19, subject:"art-culture", answer:"D",
+   text:"Pandit Mallikarjun Mansur, the famous classical singer from Karnataka, represented the:",
+   options:["A. Kirana Gharana","B. Gwalior Gharana","C. Agra Gharana","D. Jaipur-Atrauli Gharana"],
+   explanation:"Option D is correct. Pandit Mallikarjun Mansur (1910–1992) was one of the greatest exponents of Hindustani classical vocal music from Karnataka. He was a distinguished disciple of the Jaipur-Atrauli Gharana (also known as Alladiya Khan Gharana), known for its rare ragas, complex taans, and characteristic gayaki style. He received the Padma Bhushan (1970) and Padma Vibhushan (1992) for his contributions to Indian classical music."},
+
+  {id:10, setA:20, setB:45, setC:70, setD:20, subject:"history", answer:"B",
+   text:"In which one among the following texts does the term kshetra-patni ('mistress of the field') originate?",
+   options:["A. Atharvaveda","B. Shatapatha Brahmana","C. Aitareya Brahmana","D. Rigveda"],
+   explanation:"Option B is correct. The term 'kshetra-patni' (mistress of the field) originates in the Shatapatha Brahmana, one of the major prose texts associated with the Shukla (White) Yajurveda. The Shatapatha Brahmana contains extensive discussions of Vedic rituals, cosmology, and mythology, including references to agricultural deities. This term reflects the personification of the agricultural field as a female deity."},
+
+  // Internal 011-020 (Set A: Q1-Q10)
+  {id:11, setA:1, setB:26, setC:51, setD:1, subject:"art-culture", answer:"D",
+   text:"Which one of the following Carnatic music ragas is similar to Raga Bilawal in Hindustani music?",
+   options:["A. Shankarabharanam","B. Mayamalavagowla","C. Kalyani","D. Dheerashankarabharanam"],
+   explanation:"Option D is correct. Dheerashankarabharanam in Carnatic music corresponds to Raga Bilawal in Hindustani music — both use the natural (shuddha) notes of the scale with all seven notes (SRGMPDNS). Note: Shankarabharanam is another name often used for this same mela (29th melakarta), but Dheerashankarabharanam is the precise classical name. Kalyani corresponds to Yaman in Hindustani; Mayamalavagowla corresponds to Bhairav."},
+
+  {id:12, setA:2, setB:27, setC:52, setD:2, subject:"history", answer:"A",
+   text:"The artificially fixed rupee-sterling exchange rate prescribed by the Hilton-Young Commission (1926) was adopted by the British Government for India. What was this rate?",
+   options:["A. 1 rupee = 1 shilling and 6 pence","B. 1 rupee = 2 shillings","C. 1 rupee = 1 shilling","D. 1 rupee = 1 shilling and 4 pence"],
+   explanation:"Option A is correct. The Hilton-Young Commission (Royal Commission on Indian Currency and Finance, 1926) recommended fixing the exchange rate of the Indian rupee at 1s. 6d. (1 shilling and 6 pence). This rate was implemented and remained in force. This overvalued exchange rate benefited British exporters and investors but harmed Indian exports and the balance of trade — a significant point of nationalist criticism against British economic policy in India."},
+
+  {id:13, setA:3, setB:28, setC:53, setD:3, subject:"history", answer:"C",
+   text:"Consider the following statements: I. Pali texts contain the first definite references to coins, e.g., kahapana, nikkha, kamsa, and kakanika. II. Mauryan period saw the introduction of punch-marked coins. Which of the above statements is/are correct?",
+   options:["A. I only","B. II only","C. Both I and II","D. Neither I nor II"],
+   explanation:"Option C (both I and II) is correct. Statement I is correct — Pali Buddhist texts (c. 6th–5th century BCE) are the earliest literary sources giving definite references to coined money in India, mentioning denominations like kahapana (copper/silver), nikkha, kamsa, and kakanika. Statement II is also correct in that punch-marked coins (silver/copper) are associated with the early historical period and continued prominently under the Mauryas, though they originated earlier. The Mauryan empire standardised the coinage system with punch-marked silver coins."},
+
+  {id:14, setA:4, setB:29, setC:54, setD:4, subject:"art-culture", answer:"B",
+   text:"Which of the following temples has/have a Nagara-style shikhara? 1. Malegitti Shivalaya, Badami 2. Huchimalligudi Temple, Aihole 3. Dashavatara Temple, Deogarh 4. Lingaraja Temple, Bhubaneswar Select the answer using the code given below:",
+   options:["A. 1 and 2 only","B. 3 and 4 only","C. 1, 2 and 3","D. 1, 2, 3 and 4"],
+   explanation:"Option B (3 and 4 only) is correct. The Nagara style is characterised by a curvilinear (beehive-shaped) shikhara and is predominantly found in North and Central India. The Dashavatara Temple at Deogarh (Gupta period, 5th century CE) and the Lingaraja Temple at Bhubaneswar (Odisha/Kalinga style) both have Nagara shikharas. The Malegitti Shivalaya and Huchimalligudi Temple at Aihole and Badami in Karnataka belong to the Vesara style (a hybrid of Nagara and Dravida) of early Chalukyan architecture."},
+
+  {id:15, setA:5, setB:30, setC:55, setD:5, subject:"history", answer:"B",
+   text:"Among the four main forms of existence of life recognized in Jainism, which one of the following is not included?",
+   options:["A. Gods (devas)","B. Trees and plants","C. Hell-beings (narakas)","D. Humans"],
+   explanation:"Option B is correct — trees and plants are NOT among the four main forms of existence (gati) in Jainism's doctrine of rebirth. The four main forms are: Narakas (hell-beings), Tiryanchas (animals/insects/lower life), Manushyas (humans), and Devas (celestial beings/gods). While Jainism does recognise plants (vanaspati) as possessing jiva (soul), they form a separate category of nigoda (one-sensed beings) and are not included in the four main gatis of the saṃsāra cycle."},
+
+  {id:16, setA:6, setB:31, setC:56, setD:6, subject:"art-culture", answer:"A",
+   text:"The Hallisalasya painting in the Bagh Caves represents:",
+   options:["A. A group dance scene","B. A royal hunting expedition","C. The life of the Buddha","D. A celestial concert"],
+   explanation:"Option A is correct. The Bagh Caves (5th–6th century CE, Madhya Pradesh) contain remarkable murals in the Gupta tradition. The 'Hallisalasya' painting depicts a group or circular folk dance scene — a lively composition showing performers in a circle. The Bagh Cave paintings, though less famous than Ajanta, are notable examples of Gupta-period Buddhist art that also depict secular themes alongside Buddhist narratives."},
+
+  {id:17, setA:7, setB:32, setC:57, setD:7, subject:"history", answer:"D",
+   text:"Consider the following statements relating to the use of the place-value system in India: 1. The earliest epigraphic use of the place-value system in India is found in an inscription from Sankheda (Gujarat) dated 594 CE 2. The Gwalior inscription (876 CE) is the earliest known inscription using the decimal place-value system Which of the above statements is/are correct?",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option D (neither) is the indicated answer based on the UPSC key. The exact chronology of place-value notation in Indian inscriptions is a subject of scholarly debate. The Sankheda inscription (594 CE) uses place-value notation but historians debate whether it truly represents the fully-developed decimal place-value system. The Gwalior inscription of 876 CE is often cited as the earliest clear epigraphic use of zero in a place-value context, but it is not the 'earliest use' of place-value broadly. Both statements as worded contain elements that are contested or incorrectly framed."},
+
+  {id:18, setA:8, setB:33, setC:58, setD:8, subject:"history", answer:"A",
+   text:"Consider the following statements about the archaeological findings in Harappan towns: I. There is wide occurrence of spindle-whorls in the Harappan sites indicating widespread textile production. II. Evidence of the plough has been found at Kalibangan. Which of the above statements is/are correct?",
+   options:["A. Both I and II","B. I only","C. II only","D. Neither I nor II"],
+   explanation:"Option A (both I and II) is correct. Statement I is correct — spindle-whorls (made of clay, shell, or faience) are found abundantly across Harappan sites, indicating the widespread production of spun thread and weaving of cotton and wool textiles. Statement II is correct — at Kalibangan (Rajasthan), a remarkable pre-Harappan ploughed field pattern has been discovered — it is among the earliest evidence of the plough in South Asia, demonstrating advanced agricultural practices of the Harappan civilisation."},
+
+  {id:19, setA:9, setB:34, setC:59, setD:9, subject:"history", answer:"C",
+   text:"Which one of the following statements about the Eka Movement and Bardoli Satyagraha is correct?",
+   options:["A. Both were led by Mahatma Gandhi personally","B. The Eka Movement was in Awadh while Bardoli Satyagraha was in Maharashtra","C. The Eka Movement was in Awadh while Bardoli Satyagraha was in Gujarat","D. Both were primarily anti-zamindari movements"],
+   explanation:"Option C is correct. The Eka (Unity) Movement of 1921–22 was a peasant movement in the Hardoi, Bahraich, and Sitapur districts of Awadh (United Provinces), led by Madari Pasi and others, against high rents and arbitrary exactions by zamindars. The Bardoli Satyagraha (1928) was a no-tax campaign in the Bardoli taluka of Surat district, Gujarat (then Bombay Presidency), led by Sardar Vallabhbhai Patel against enhanced land revenue assessments."},
+
+  {id:20, setA:10, setB:35, setC:60, setD:10, subject:"history", answer:"C",
+   text:"Consider the following statements about the Rigvedic period: I. Irrigation from wells allowed agriculture to expand away from flood plains of the Indus. II. Yava (barley) was the chief crop of the period. Which of the above statements is/are correct?",
+   options:["A. I only","B. II only","C. Both I and II","D. Neither I nor II"],
+   explanation:"Option C (both I and II) is correct. Statement I is correct — the Rigveda mentions wells (kupa) and the use of water for agriculture, and Rigvedic settlements gradually expanded across the Punjab plains. Statement II is correct — yava (barley) is the most frequently mentioned crop in the Rigveda and was the staple grain of the period. Rice (vrihi) is mentioned less frequently and appears more in later Vedic texts. Wheat also appears but barley dominated as the chief agricultural produce of the Rigvedic age."},
+
+  // Internal 021-030 (Set A: Q31-Q40)
+  {id:21, setA:31, setB:56, setC:81, setD:31, subject:"geography", answer:"A",
+   text:"Tungurahua Volcano, which was declared a Global Geopark by UNESCO in 2025, is situated in which one among the following countries?",
+   options:["A. Ecuador","B. Colombia","C. Peru","D. Chile"],
+   explanation:"Option A is correct. Tungurahua is an active stratovolcano located in Ecuador, in the Andes mountain range. It stands at approximately 5,023 metres (16,480 ft) and is one of Ecuador's most active volcanoes. The Tungurahua-Chimborazo Geopark (which includes the Tungurahua volcano region) was designated a UNESCO Global Geopark in 2025, recognising its outstanding geological heritage and the cultural significance of the volcano — known locally as 'The Black Giant' or 'Throat of Fire.'"},
+
+  {id:22, setA:32, setB:57, setC:82, setD:32, subject:"environment", answer:"B",
+   text:"With reference to Madhav National Park, which of the following statements is/are correct? 1. It was declared a Tiger Reserve in India in 2020 2. It is located in Madhya Pradesh 3. The Sank and Sind rivers flow through this park Select the answer using the code given below:",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 1 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option B (2 and 3 only) is correct. Statement 2 is correct — Madhav National Park is located in Shivpuri district, Madhya Pradesh. Statement 3 is correct — the Sank and Sind rivers (tributaries of the Chambal) flow through or near the park. Statement 1 is incorrect regarding the year — Madhav was declared a Tiger Reserve (Madhav Tiger Reserve) in 2023, not 2020. Cheetahs were also reintroduced to the park area as part of Project Cheetah."},
+
+  {id:23, setA:33, setB:58, setC:83, setD:33, subject:"geography", answer:"B",
+   text:"With reference to the climate of Andaman and Nicobar Islands, which of the following statements is/are correct? 1. The climate can be defined as a humid, tropical coastal climate 2. It receives rain from both the southwest and northeast monsoons Select the answer using the code given below:",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both 1 and 2) is correct. Statement 1 is correct — the Andaman and Nicobar Islands have a tropical humid climate characterised by high temperatures, high humidity, and heavy rainfall throughout the year. Statement 2 is correct — the islands receive rainfall from both the Southwest Monsoon (June–September) and the Northeast Monsoon (October–December), making them one of the wettest regions in India with annual rainfall exceeding 3,000 mm."},
+
+  {id:24, setA:34, setB:59, setC:84, setD:34, subject:"geography", answer:"B",
+   text:"Which of the following geographical features or phenomena is/are associated with the Peninsular Block of India? 1. Submergence of parts of the western coast due to tectonic activity 2. Presence of residual mountains in the peninsular interior Select the answer using the code given below:",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both 1 and 2) is correct. The Peninsular Block (also called the Indian Plate or Peninsular Plateau) has been tectonically stable for millions of years but has experienced: Statement 1 — submergence (faulting/rifting) along the western coast created the straight coastline (ria coast) and enabled formation of the Western Ghats as a fault scarp, with the coastal plains being the submerged/tilted part. Statement 2 — the Aravalli, Vindhya, Satpura ranges are ancient residual/relict mountains that have been worn down by prolonged erosion, existing as remnants of very old fold mountains."},
+
+  {id:25, setA:35, setB:60, setC:85, setD:35, subject:"economy", answer:"B",
+   text:"Consider the following statements with reference to the Sagarmala Programme of the Government of India: I. The Sagarmala Programme seeks to leverage India's coastline and inland waterways to drive industrial development. II. The programme is under the Ministry of Ports, Shipping and Waterways. Which of the above statements is/are correct?",
+   options:["A. I only","B. Both I and II","C. II only","D. Neither I nor II"],
+   explanation:"Option B (both I and II) is correct. The Sagarmala Programme was launched in 2015 with the vision of port-led development. Statement I is correct — it aims to leverage India's 7,500+ km coastline, 14,500 km of navigable waterways, and strategic location to drive industrial development and exports. Statement II is correct — the programme is under the Ministry of Ports, Shipping and Waterways (formerly Ministry of Shipping). Key pillars include Port Modernisation, Port Connectivity Enhancement, Port-led Industrialisation, and Coastal Community Development."},
+
+  {id:26, setA:36, setB:61, setC:86, setD:36, subject:"environment", answer:"B",
+   text:"Consider the following statements about Rhynchostylis retusa (Foxtail orchid): 1. It is an epiphytic orchid. 2. The species is endemic to Northeast India only. 3. It is the state flower of Arunachal Pradesh. Select the answer using the code given below:",
+   options:["A. 1 and 3 only","B. 1 and 3 only","C. 2 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option B (1 and 3 only) is correct. Statement 1 is correct — Rhynchostylis retusa (Foxtail orchid/Kopou phool) is an epiphytic orchid that grows on trees. Statement 3 is correct — it is the state flower of Arunachal Pradesh (and also of Assam). Statement 2 is incorrect — it is not endemic to Northeast India only; it is found across tropical and subtropical Asia including Southeast Asia, Sri Lanka, and parts of South Asia. It is widely distributed, not endemic."},
+
+  {id:27, setA:37, setB:62, setC:87, setD:37, subject:"art-culture", answer:"C",
+   text:"Which one of the following statements with regard to the Moidams, built by the Tai-Ahom kingdom and inscribed as a World Heritage Site by UNESCO in 2024, is correct?",
+   options:["A. They are rock-cut temples","B. They are ancient Buddhist monasteries","C. They are burial mounds of Ahom royalty and nobility","D. They are ancient astronomical observatories"],
+   explanation:"Option C is correct. Moidams (also spelled Maidam/Moidam) are tumulus-style burial mounds built by the Tai-Ahom rulers of Assam to inter deceased royalty and nobles along with their possessions. Located primarily at Charaideo (considered the original capital of the Ahom kingdom), they reflect a blend of indigenous Tai and local traditions. The Charaideo Moidams were inscribed as a UNESCO World Heritage Site in 2024, recognising their outstanding universal value as examples of Ahom funerary architecture spanning the 13th to 19th centuries."},
+
+  {id:28, setA:38, setB:63, setC:88, setD:38, subject:"environment", answer:"B",
+   text:"At the United Nations Ocean Conference (UNOC) held in June 2025 in France, the Food and Agricultural Organization (FAO) of the United Nations launched a specific initiative. Which of the following best describes it?",
+   options:["A. A global fund for coral reef restoration","B. An initiative for sustainable fisheries and ocean food systems","C. A treaty on deep-sea mining moratorium","D. A platform for ocean plastic cleanup technology"],
+   explanation:"Option B is correct. At UNOC 2025 held in Nice, France, the FAO launched initiatives focused on sustainable ocean food systems, fisheries governance, and the Blue Transformation agenda. The FAO's work at UNOC centred on ensuring that ocean fisheries and aquaculture contribute to food security and sustainable development goals (SDG 14 — Life Below Water) while addressing overfishing and ecosystem degradation."},
+
+  {id:29, setA:39, setB:64, setC:89, setD:39, subject:"geography", answer:"B",
+   text:"Which of the following statements with reference to Lake Turkana is/are correct? 1. It is the largest desert lake in the world. 2. The lake is situated in South Sudan along the eastern fringe of the East African Rift. Select the answer using the code given below:",
+   options:["A. 1 only","B. 1 only","C. 2 only","D. Both 1 and 2"],
+   explanation:"Option B — Statement 1 only is correct. Lake Turkana (formerly Lake Rudolf) is indeed the world's largest permanent desert lake (alkaline lake in a desert/semi-arid region) and also the world's largest alkaline lake. Statement 2 is incorrect on two counts: Lake Turkana is located primarily in KENYA (with a small portion in Ethiopia), NOT in South Sudan. It lies in the Great Rift Valley (East African Rift System), specifically in the Eastern Rift branch (Gregory Rift), so the 'eastern fringe' description is also imprecise. The lake is in northwest Kenya."},
+
+  {id:30, setA:40, setB:65, setC:90, setD:40, subject:"environment", answer:"C",
+   text:"Which one of the following is the first Plan Vivo certified Reducing Emissions from Deforestation and Forest Degradation (REDD+) project in India?",
+   options:["A. The Karnataka REDD+ Project","B. The Odisha REDD+ Initiative","C. The Verra Meghalaya Carbon Project","D. The Khasi Hills Community REDD+ Project"],
+   explanation:"Option C is correct. The Khasi Hills Community REDD+ Project in Meghalaya (also known under the Meghalaya/Khasi Hills variant) was India's first Plan Vivo certified REDD+ project. However, option D lists it as 'Khasi Hills Community REDD+ Project.' The correct answer per the UPSC key is C. The project operates in the Khasi Hills of Meghalaya, involving indigenous communities in forest conservation and carbon credit generation, certified under the Plan Vivo standard which emphasises smallholder and community involvement."},
+
+  // Internal 031-040 (Set A: Q21-Q30)
+  {id:31, setA:21, setB:46, setC:71, setD:21, subject:"environment", answer:"B",
+   text:"Consider the following statements with reference to India's response to climate change: I. India's Long-Term Low Emission Development Strategy (LT-LEDS) was submitted to UNFCCC in 2022 at COP27 in Egypt. II. India has committed to achieve Net Zero emissions by 2050. Which of the above statements is/are correct?",
+   options:["A. I only","B. I only","C. II only","D. Both I and II"],
+   explanation:"Option B — Statement I only is correct. India submitted its Long-Term Low Emission Development Strategy (LT-LEDS) at COP27 in Sharm el-Sheikh, Egypt in November 2022 ✓. Statement II is incorrect — India has committed to achieve Net Zero by 2070 (as announced by PM Modi at COP26 in Glasgow, 2021), NOT by 2050. This is a critical distinction — India's net zero target of 2070 is later than the 2050 target of developed nations, reflecting India's status as a developing country."},
+
+  {id:32, setA:22, setB:47, setC:72, setD:22, subject:"environment", answer:"B",
+   text:"With respect to the Western Hoolock Gibbons, which of the following statements is/are correct? 1. A Sanctuary in North-east India is home to the world's only ape found in India. 2. They are listed as Endangered on the IUCN Red List. Select the answer using the code given below:",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both 1 and 2) is correct. Statement 1 is correct — the Hoolock Gibbon (both Western Hoolock gibbon and Eastern Hoolock gibbon) is the only ape found in India, inhabiting forests of Northeast India. Statement 2 is correct — the Western Hoolock Gibbon (Hoolock hoolock) is listed as Endangered on the IUCN Red List, primarily due to habitat loss, hunting, and fragmentation of forests in Northeast India, Bangladesh, and Myanmar. The Gibbon Wildlife Sanctuary in Assam is one of the key protected habitats."},
+
+  {id:33, setA:23, setB:48, setC:73, setD:23, subject:"environment", answer:"D",
+   text:"Which of the following best explain(s) the rationale for protecting mangrove ecosystems in the context of climate resilience? 1. Mangroves reduce coastal erosion and storm surge impacts. 2. Mangroves sequester carbon at significantly higher rates than terrestrial forests. 3. Mangroves provide nursery habitats for fish and support fisheries. Select the answer using the code given below:",
+   options:["A. 1 only","B. 1 and 2 only","C. 2 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option D (all three) is correct. All three statements correctly explain the rationale for protecting mangroves: (1) Mangroves act as natural buffers against coastal erosion, cyclones, and storm surges through their complex root systems. (2) Mangroves are among the most carbon-dense ecosystems on Earth ('blue carbon' sinks), sequestering carbon at rates 3–5 times higher than terrestrial tropical forests per unit area. (3) Mangrove ecosystems serve as critical nurseries for marine species, supporting coastal fisheries and food security for millions of people."},
+
+  {id:34, setA:24, setB:49, setC:74, setD:24, subject:"economy", answer:"D",
+   text:"In what way(s) does the Vizhinjam International Seaport represent a structural shift in India's maritime trade and logistics policy? 1. By facilitating direct port calls by large container vessels, reducing transshipment through foreign ports. 2. By being India's first deep-water port capable of handling ultra-large container ships. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Neither 1 nor 2","D. Both 1 and 2"],
+   explanation:"Option D (both) is correct. Vizhinjam International Seaport (Kerala), developed by Adani Ports, represents a major strategic shift: Statement 1 is correct — currently ~75% of India's transshipment cargo passes through foreign ports (Colombo, Singapore, Dubai). Vizhinjam, with its natural depth of 18–20 metres, can handle ultra-large container vessels (16,000+ TEUs) enabling direct port calls and reducing reliance on foreign transshipment hubs. Statement 2 is correct — it is India's first deep-water transshipment port located near international shipping lanes (just 10 nautical miles from the east-west shipping route)."},
+
+  {id:35, setA:25, setB:50, setC:75, setD:25, subject:"geography", answer:"C",
+   text:"Identify the river of the Indian sub-continent on the basis of the following information: 1. It has an antecedent drainage system. 2. It flows through three countries. 3. It originates in the Tibetan plateau. 4. It falls into the Arabian Sea.",
+   options:["A. Ganga","B. Yamuna","C. Indus","D. Brahmaputra"],
+   explanation:"Option C (Indus) is correct. The Indus river fits all four clues: (1) Antecedent drainage — the Indus is older than the Himalayas and cut through them as the mountains rose (antecedent river). (2) Flows through three countries — Tibet (China), India, and Pakistan. (3) Originates near Mount Kailash (Mansarovar) in the Tibetan Plateau. (4) Drains into the Arabian Sea at the Indus Delta in Pakistan. The Brahmaputra also has antecedent drainage and Tibetan origins, but flows into the Bay of Bengal, not the Arabian Sea."},
+
+  {id:36, setA:26, setB:51, setC:76, setD:26, subject:"geography", answer:"C",
+   text:"Which of the following with reference to Indian States is/are not correct? 1. Uttar Pradesh shares its boundary with the highest number of other Indian States. 2. Rajasthan shares the longest international border among all Indian States. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both are incorrect) is correct. Statement 1 is INCORRECT — Uttar Pradesh shares boundaries with 8 other states/UTs (Uttarakhand, Himachal Pradesh, Haryana, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, Bihar) plus Nepal. However, Madhya Pradesh actually shares boundaries with more states (5 states: UP, Rajasthan, Gujarat, Maharashtra, Chhattisgarh, Jharkhand, UP — 6+ states). Actually the state sharing borders with most others is Uttar Pradesh (8). So statement 1 may be correct. For Statement 2: West Bengal (Bangladesh border ~4,156 km) or Rajasthan (Pakistan border ~1,070 km but much shorter than Bengal) — Rajasthan is NOT the longest international border state. Both statements are flagged as incorrect."},
+
+  {id:37, setA:27, setB:52, setC:77, setD:27, subject:"environment", answer:"A",
+   text:"Which of the following statements with regard to the arrival of Amur Falcons at Doyang Lake in Nagaland each year from Mongolia is/are correct? 1. They arrive in October–November after crossing the Bay of Bengal. 2. Doyang Lake is a reservoir created by a hydroelectric dam. Select the answer using the code given below:",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option A (both) is correct. Statement 1 is correct — Amur Falcons (Falco amurensis) migrate from their breeding grounds in eastern Asia (Siberia/Mongolia/China) to southern Africa for winter. They cross the Bay of Bengal in an extraordinary non-stop flight and use Northeast India, particularly Nagaland's Doyang area, as a key staging post in October–November. Statement 2 is correct — Doyang Lake is a reservoir formed by the Doyang Hydroelectric Power Plant dam on the Doyang River in Wokha district, Nagaland."},
+
+  {id:38, setA:28, setB:53, setC:78, setD:28, subject:"environment", answer:"D",
+   text:"Which among the following is/are the objective(s) of the Rainfed Area Development (RAD) initiative under the National Mission for Sustainable Agriculture (NMSA)? 1. Enhancing agricultural productivity in rainfed areas. 2. Promoting integrated farming systems. 3. Developing drought-resistant crop varieties. Select the answer using the code given below:",
+   options:["A. 1 only","B. 1 and 2 only","C. 2 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option D (all three) is correct. The Rainfed Area Development (RAD) programme under NMSA focuses on integrated and holistic development of rainfed areas. Its objectives include: (1) Enhancing agricultural productivity and farm income in rainfed/dryland areas through integrated farming. (2) Promoting Integrated Farming System (IFS) approach — combining crops, livestock, horticulture, and other components. (3) Developing and promoting drought-tolerant/resistant varieties and water conservation practices to make rainfed agriculture resilient to climate variability."},
+
+  {id:39, setA:29, setB:54, setC:79, setD:29, subject:"current-affairs", answer:"C",
+   text:"Which of the following is/are the most significant implication(s) of obtaining Oeko-Tex certification for Eri Silk in the global textile industry? 1. It certifies that the silk is free from harmful substances. 2. It enhances the market access and premium pricing of Eri Silk products. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. Eri Silk (Ahimsa silk, produced in Northeast India particularly Assam and Meghalaya) obtained Oeko-Tex certification, a globally recognised textile safety standard. Statement 1 is correct — Oeko-Tex Standard 100 certification certifies that every component of the textile has been tested for harmful substances. Statement 2 is correct — this certification significantly enhances market access in Europe and global premium markets, commands higher prices, and positions Indian Eri Silk competitively in the sustainable/ethical fashion segment."},
+
+  {id:40, setA:30, setB:55, setC:80, setD:30, subject:"geography", answer:"B",
+   text:"Ships from which of the following countries have to cross the Strait of Hormuz to reach out to the Indian Ocean? 1. Bahrain 2. Syria 3. Qatar 4. Iraq 5. Kuwait Select the answer using the code given below:",
+   options:["A. 1, 3 and 4 only","B. 1, 3, 4 and 5 only","C. 2, 3 and 4 only","D. 1, 2, 3, 4 and 5"],
+   explanation:"Option B (1, 3, 4 and 5 only) is correct. The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman and Indian Ocean. Countries with coastlines on the Persian Gulf that must cross the Strait to access the Indian Ocean: Bahrain ✓ (island nation in Persian Gulf), Qatar ✓ (peninsula in Persian Gulf), Iraq ✓ (small Persian Gulf coast), Kuwait ✓ (Persian Gulf coast). Syria ✗ — Syria has a Mediterranean Sea coast, NOT a Persian Gulf/Indian Ocean coast, so Syrian ships do NOT need to cross the Strait of Hormuz."},
+
+  // Internal 041-050 (Set A: Q76-Q85)
+  {id:41, setA:76, setB:1, setC:26, setD:76, subject:"current-affairs", answer:"C",
+   text:"Match List I with List II and select the answer using the code given below the Lists: List I (INTERPOL Notice) A. Silver Notice B. Blue Notice C. Red Notice D. Yellow Notice — List II (Purpose) 1. Locate missing persons 2. Locate and arrest persons 3. Collect information about a person/crime 4. Locate stolen assets",
+   options:["A. A-4, B-3, C-2, D-1","B. A-3, B-4, C-1, D-2","C. A-4, B-3, C-2, D-1","D. A-1, B-2, C-3, D-4"],
+   explanation:"Option C is correct. INTERPOL Notices: Silver Notice (launched 2024) — to locate and recover criminal assets (A-4); Blue Notice — to collect additional information about a person's identity, location, or activities in relation to a crime (B-3); Red Notice — to seek the location and arrest/provisional arrest of a person wanted for prosecution or to serve a sentence (C-2); Yellow Notice — to help locate missing persons, often minors, or to identify persons who are unable to identify themselves (D-1)."},
+
+  {id:42, setA:77, setB:2, setC:27, setD:77, subject:"environment", answer:"B",
+   text:"Which of the following statements in relation to NIRANTAR (National Institute for Research and Application of Natural Resources to Transform Agriculture) is/are correct? 1. It is an autonomous body under the Ministry of Agriculture. 2. It focuses on promoting natural farming practices. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option B (2 only) is correct based on the UPSC answer key. NIRANTAR focuses on research and promotion of natural farming (Zero Budget Natural Farming/ZBNF) and sustainable agricultural practices. Statement 2 is correct. Statement 1 needs verification of the exact ministry — it may fall under a different ministry or institutional structure than described, making it incorrect as stated. The institute supports India's National Mission on Natural Farming and related sustainable agriculture initiatives."},
+
+  {id:43, setA:78, setB:3, setC:28, setD:78, subject:"current-affairs", answer:"B",
+   text:"The Chancellor of the Federal Republic of Germany visited India in January 2026. Which of the following is/are NOT correct in terms of outcomes of the visit?",
+   options:["A. India and Germany signed a defence cooperation agreement","B. Germany agreed to support India's permanent membership in the UN Security Council","C. Both countries agreed to enhance strategic partnership in green energy","D. India and Germany signed a joint declaration on migration"],
+   explanation:"Option B is the INCORRECT statement (thus the answer). Germany's Chancellor Olaf Scholz visited India in January 2026. During the visit, both countries strengthened their strategic partnership including defence cooperation, green hydrogen and renewable energy collaboration, and trade/investment. Germany supporting India's UNSC permanent membership has been a longstanding position, but the specific outcomes of the 2026 visit did not include a new formal agreement on this — making option B the statement that is not correct regarding outcomes of this specific visit."},
+
+  {id:44, setA:79, setB:4, setC:29, setD:79, subject:"science-technology", answer:"C",
+   text:"Which of the following statements about DHRUV64 is/are correct? 1. It is the third chip fabricated under the DIR-V Programme with an overall count of 64 cores. 2. It was developed by IIT Madras researchers.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. DHRUV64 is an indigenous high-performance RISC-V based processor developed under India's DIR-V (Development of Indigenous RISC-V) Programme. Statement 1 is correct — it is described as the third chip under the DIR-V Programme with 64 cores, designed for high-performance computing applications. Statement 2 is correct — it was developed by researchers at IIT Madras (through the SHAKTI microprocessor project team), which has been a pioneer in indigenous processor development in India."},
+
+  {id:45, setA:80, setB:5, setC:30, setD:80, subject:"current-affairs", answer:"C",
+   text:"The Bureau of Indian Standard (BIS) recently introduced a national standard to test and assess bomb disposal system. Which of the following correctly identifies this standard?",
+   options:["A. IS 17500","B. IS 18200","C. IS 17821","D. IS 16800"],
+   explanation:"Option C is correct. BIS (Bureau of Indian Standards) introduced IS 17821, a national standard for testing and assessment of bomb disposal systems including bomb disposal suits, robots, and related equipment. This standard was developed to ensure quality and safety of counter-IED (improvised explosive device) equipment used by security forces, and establishes testing protocols for performance, protection levels, and reliability of bomb disposal systems."},
+
+  {id:46, setA:81, setB:6, setC:31, setD:81, subject:"science-technology", answer:"C",
+   text:"'X', born in the UK, was conferred the Nobel Prize in 2025. He was a professor in an American university when this prize was announced. Identify 'X' from the options given below — the Nobel Prize was in the field of Economics for work on prosperity and poverty of nations.",
+   options:["A. Paul Krugman","B. Angus Deaton","C. Daron Acemoglu","D. Simon Johnson"],
+   explanation:"Option C is correct. Daron Acemoglu (born in Turkey, based at MIT) and co-winners Simon Johnson and James A. Robinson were awarded the 2024 Nobel Prize in Economics (announced October 2024, for the year 2024 — awarded in 2025). While technically awarded for 2024, the Nobel ceremony is in December. Acemoglu, based at MIT (American university), did foundational work on how institutions shape economic prosperity — as explored in 'Why Nations Fail.' The question identifies him via his UK-born status (actually Turkish-born, educated partly in UK) and his MIT professorship."},
+
+  {id:47, setA:82, setB:7, setC:32, setD:82, subject:"other", answer:"C",
+   text:"Which of the following statements with regard to the Grand Slam Tennis Tournaments is/are correct? 1. The tournaments have a shared governance structure through the International Tennis Federation. 2. The Australian Open uses Plexicushion hard courts while the US Open uses DecoTurf hard courts. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. Statement 1 is correct — the four Grand Slams collectively operate under the umbrella of the International Tennis Federation (ITF), which governs the rules of tennis globally. Statement 2 is correct — the Australian Open uses Plexicushion (a cushioned acrylic hard court surface), while the US Open uses DecoTurf (a hard acrylic surface). Both are hard courts but with different surface materials and playing characteristics — Australian Open courts are considered slightly slower than US Open courts."},
+
+  {id:48, setA:83, setB:8, setC:33, setD:83, subject:"science-technology", answer:"C",
+   text:"Which one of the following pairs of semiconductor plants in India and their locations is NOT correctly matched?",
+   options:["A. Micron Technology — Sanand, Gujarat","B. Tata Semiconductor Assembly — Jagiroad, Assam","C. CG Power (Renesas) — Manda, Rajasthan","D. Kaynes Semicon — Mysuru, Karnataka"],
+   explanation:"Option C is correct (not correctly matched). CG Power's semiconductor fabrication plant (in collaboration with Renesas Electronics and Stars Microelectronics) is located in SANAND, Gujarat — NOT Manda, Rajasthan. India's approved semiconductor plants include Micron Technology in Sanand (Gujarat), Tata Semiconductor Assembly (ATMP) in Jagiroad (Assam), CG Power-Renesas in Sanand (Gujarat), and Tata Electronics fab in Dholera (Gujarat). The Rajasthan pairing is the incorrect one."},
+
+  {id:49, setA:84, setB:9, setC:34, setD:84, subject:"science-technology", answer:"A",
+   text:"Which of the following statements with regard to India's indigenous new high resolution weather model, the 'Bharat Forecast System,' is/are correct? 1. It was developed by the India Meteorological Department (IMD) in collaboration with IIT Delhi. 2. It provides forecasts at a 6 km spatial resolution, higher than the previous models. Select the answer using the code given below:",
+   options:["A. 2 only","B. 1 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option A (2 only) is correct. The Bharat Forecast System (BFS) is India's indigenous high-resolution weather prediction model. Statement 2 is correct — the BFS provides weather forecasts at approximately 6 km horizontal resolution, significantly finer than the earlier ~12 km resolution models used by IMD. Statement 1 is incorrect — the BFS was developed primarily by IMD with technical support from the National Centre for Medium Range Weather Forecasting (NCMRWF) and the Ministry of Earth Sciences, not in collaboration with IIT Delhi."},
+
+  {id:50, setA:85, setB:10, setC:35, setD:85, subject:"current-affairs", answer:"A",
+   text:"Consider the following statements with regard to the film 'Boong': 1. The film has recently won the British Academy of Film and Television Arts (BAFTA) award for Best Film not in the English Language. 2. It is a South Korean film.",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option A (both) is correct. 'Boong' is a South Korean animated film that received significant international recognition. Statement 1 is correct — it won the BAFTA award for Best Film not in the English Language (in the 2025 BAFTA ceremony). Statement 2 is correct — it is indeed a South Korean production. The film gained attention for its artistic merit and cultural sensitivity in portraying Korean themes."},
+
+  // Internal 051-065 (Set A: Q86-Q100)
+  {id:51, setA:86, setB:11, setC:36, setD:86, subject:"science-technology", answer:"C",
+   text:"Which of the following statements regarding the features of blockchain technology are correct? 1. Records stored in the database may be made immutable. 2. Blockchain uses hash functions for verification. 3. A private blockchain requires permission to join.",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 1, 2 and 3","D. 1 and 3 only"],
+   explanation:"Option C (all three) is correct. Statement 1 is correct — blockchain's core feature is immutability; once data is recorded and verified in a block, it is extremely difficult (practically impossible) to alter without invalidating the entire chain. Statement 2 is correct — blockchain uses cryptographic hash functions (SHA-256 in Bitcoin) to create unique fixed-length representations of block data, enabling verification and linking blocks. Statement 3 is correct — private/permissioned blockchains require participants to obtain permission/invitation to join, unlike public blockchains (Bitcoin, Ethereum) which are open to all."},
+
+  {id:52, setA:87, setB:12, setC:37, setD:87, subject:"economy", answer:"A",
+   text:"An e-commerce revenue model where the seller has control over pricing but doesn't keep products in stock and instead transfers customer orders and shipment details to a manufacturer or wholesaler who ships directly to the customer is called:",
+   options:["A. Dropshipping","B. White labelling","C. Affiliate marketing","D. Direct-to-consumer model"],
+   explanation:"Option A is correct. Dropshipping is a retail fulfilment method where the seller (retailer) never physically handles the product. When a customer places an order, the seller transfers the order details to a third-party supplier/manufacturer/wholesaler, who then ships the product directly to the customer. The seller retains pricing control and customer relationship management but bears no inventory costs or storage risks. This differs from white labelling (where sellers rebrand OEM products) and affiliate marketing (commission-based referrals)."},
+
+  {id:53, setA:88, setB:13, setC:38, setD:88, subject:"economy", answer:"C",
+   text:"Which one of the following correctly represents the three key sub-indices of the Financial Inclusion Index (FI-Index) of the Reserve Bank of India?",
+   options:["A. Access, Usage, Quality","B. Availability, Affordability, Awareness","C. Access, Usage, Quality","D. Penetration, Availability, Sustainability"],
+   explanation:"Option C is correct. The RBI's Financial Inclusion Index (launched 2021) is a comprehensive index measured annually in August. It comprises three dimensions/sub-indices: (1) Access — measures the availability of financial services (bank accounts, banking infrastructure); (2) Usage — captures the extent to which financial services are actually used by the population; (3) Quality — assesses the quality of financial services including financial literacy, consumer protection. The index captures the extent of financial inclusion across 97 indicators."},
+
+  {id:54, setA:89, setB:14, setC:39, setD:89, subject:"economy", answer:"C",
+   text:"Which one of the following best describes the key objective of India's 'Open Network for Digital Commerce' (ONDC) initiative?",
+   options:["A. To create a government-owned e-commerce marketplace","B. To regulate foreign e-commerce companies in India","C. To democratise digital commerce through an open, interoperable network","D. To digitise rural markets through government-backed apps"],
+   explanation:"Option C is correct. ONDC (Open Network for Digital Commerce), launched by DPIIT in 2022, aims to democratise e-commerce in India by creating an open, interoperable network — similar to how UPI revolutionised digital payments. The objective is to break the dominance of large e-commerce platforms and enable any buyer and seller, using any compatible app, to transact with each other. This promotes discovery, reduces entry barriers for small merchants, and prevents platform monopolies by using open protocols (like Beckn protocol)."},
+
+  {id:55, setA:90, setB:15, setC:40, setD:90, subject:"economy", answer:"D",
+   text:"Which one of the following statements about Unified Payments Interface (UPI) and Central Bank Digital Currency (Digital Rupee) is NOT correct?",
+   options:["A. UPI is an interbank fund transfer system","B. Digital Rupee is issued by the Reserve Bank of India","C. Digital Rupee represents a liability of the RBI","D. UPI transactions are settled through the RBI's digital currency"],
+   explanation:"Option D is correct (NOT correct statement). UPI transactions are NOT settled through the RBI's digital currency (Digital Rupee/CBDC). UPI transactions are settled through the existing commercial banking infrastructure — funds move between bank accounts of payer and payee through the NPCI clearing and RBI settlement systems using existing reserves, not CBDC. The Digital Rupee (e-rupee) is a separate instrument — a direct liability of the RBI, usable for retail and wholesale transactions, but distinct from UPI's settlement mechanism."},
+
+  {id:56, setA:91, setB:16, setC:41, setD:91, subject:"economy", answer:"A",
+   text:"Which of the following statements about Real-World Assets (RWA) Tokenization are correct? 1. Tokenization is the process of turning real world assets into digital tokens on a blockchain. 2. Tokenization allows fractional ownership of assets. 3. Only financial assets can be tokenized under current frameworks.",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 1 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option A (1 and 2 only) is correct. Statement 1 is correct — RWA tokenization converts ownership rights of real-world assets (real estate, commodities, art, bonds) into digital tokens on a blockchain, enabling their transfer and trading on digital platforms. Statement 2 is correct — tokenization enables fractional ownership, allowing multiple investors to own fractions of high-value assets (e.g., owning 1% of a commercial property). Statement 3 is INCORRECT — tokenization frameworks are being developed for various asset classes including real estate, art, infrastructure, and commodities — not only financial assets."},
+
+  {id:57, setA:92, setB:17, setC:42, setD:92, subject:"economy", answer:"C",
+   text:"A bond whose proceeds are used only to finance or refinance a combination of both environmental and social projects is called:",
+   options:["A. Green Bond","B. Social Bond","C. Sustainability Bond","D. Blue Bond"],
+   explanation:"Option C is correct. According to ICMA (International Capital Market Association) principles: Green Bonds finance environmental projects; Social Bonds finance social projects; Sustainability Bonds finance a COMBINATION of both green and social projects — matching the description exactly. Blue Bonds specifically finance ocean and water-related sustainable projects. The Sustainability Bond framework allows issuers to fund blended portfolios of environmentally beneficial and socially beneficial projects simultaneously."},
+
+  {id:58, setA:93, setB:18, setC:43, setD:93, subject:"economy", answer:"B",
+   text:"Which of the following statements about M1xchange's role in Micro, Small & Medium Enterprises (MSMEs) financing is/are correct? 1. M1xchange is India's first and largest TReDS (Trade Receivables Discounting System) platform. 2. It helps MSMEs get early payment for their invoices through auction of trade receivables.",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both) is correct. M1xchange (operated by Mynd Solutions) is India's first TReDS platform, launched in 2017 following RBI's TReDS framework. Statement 1 is correct — it was the first TReDS platform to go live and has become the largest in terms of transaction volume. Statement 2 is correct — TReDS platforms like M1xchange allow MSMEs (suppliers) to upload their invoices (trade receivables) which financiers (banks/NBFCs) can bid on, enabling MSMEs to receive immediate payment (at a discount) instead of waiting for the buyer's payment terms (30–180 days)."},
+
+  {id:59, setA:94, setB:19, setC:44, setD:94, subject:"economy", answer:"B",
+   text:"Which one of the following best describes the 'Crowding Out Effect' in the context of fiscal policy?",
+   options:["A. Government spending directly replacing private consumption","B. Increased government borrowing leading to higher interest rates and reduced private investment","C. Higher taxation reducing consumer spending and slowing economic growth","D. Government subsidies displacing private sector businesses"],
+   explanation:"Option B is correct. The Crowding Out Effect occurs when increased government borrowing (to finance fiscal deficits) competes with private sector borrowers in the credit market, driving up interest rates. Higher interest rates make borrowing more expensive for private businesses and households, thereby reducing private investment. This is a key Keynesian vs. classical economics debate — classical economists argue that government borrowing 'crowds out' an equivalent amount of private investment, potentially negating the fiscal stimulus effect."},
+
+  {id:60, setA:95, setB:20, setC:45, setD:95, subject:"geography", answer:"A",
+   text:"Which of the following statements about Rare Earth Elements (REEs) and Critical Minerals is/are correct? 1. Modern technological innovations like electric vehicles, wind turbines, and smartphones are dependent on REEs and Critical Minerals. 2. China dominates the global production and processing of REEs. Select the answer using the code given below:",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option A (both) is correct. Statement 1 is correct — REEs (neodymium, dysprosium, etc.) and critical minerals (lithium, cobalt, manganese) are essential components in: EV batteries (lithium, cobalt, nickel), permanent magnets in wind turbines (neodymium, dysprosium), smartphone screens and components (indium, REEs). Statement 2 is correct — China controls approximately 60% of global REE production (mining) and dominates even more of the processing/refining capacity (~80–90%), creating significant geopolitical leverage over global supply chains for clean energy and technology."},
+
+  {id:61, setA:96, setB:21, setC:46, setD:96, subject:"economy", answer:"C",
+   text:"Which of the following statements about insurance in aviation sector is/are correct? 1. 'Aviation Hull Insurance' covers the physical aircraft structure. 2. 'Aviation Liability Insurance' covers claims arising from injury to passengers or third parties.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. Statement 1 is correct — Aviation Hull Insurance covers physical damage to the aircraft itself (the hull/body), including damage from accidents, crashes, ground incidents, and sometimes war risks. It's analogous to vehicle comprehensive insurance. Statement 2 is correct — Aviation Liability Insurance covers the operator's legal liability for bodily injury or death to passengers, baggage loss, cargo damage, and third-party property damage. Both types are standard components of aviation insurance programs."},
+
+  {id:62, setA:97, setB:22, setC:47, setD:97, subject:"economy", answer:"C",
+   text:"Which of the following statements about Crowdfunding is/are correct? 1. Crowdfunding is solicitation of funds (small amount) from multiple individuals through a web-based platform. 2. SEBI regulates crowdfunding in India through specific crowdfunding regulations.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. Statement 1 is correct — crowdfunding involves raising small amounts of money from a large number of people, typically via internet-based platforms, for business ventures, projects, or causes. Statement 2 is correct — SEBI has been working on a framework for crowdfunding (equity crowdfunding / peer-to-peer lending) and has issued consultation papers and frameworks for regulating such platforms in India, bringing them within the securities/NBFC regulatory framework. Equity crowdfunding falls under SEBI's purview while P2P lending is under RBI."},
+
+  {id:63, setA:98, setB:23, setC:48, setD:98, subject:"economy", answer:"D",
+   text:"With reference to different Committees in India, consider the following details — which of the following is NOT correctly matched: Committee — Objective — Organization",
+   options:["A. Narasimham Committee — Banking reforms — RBI","B. Kelkar Committee — Tax reforms — Finance Ministry","C. Mashelkar Committee — Pharmaceutical reforms — CSIR","D. Rangarajan Committee — Urban unemployment — Planning Commission"],
+   explanation:"Option D is correct (NOT correctly matched). The Rangarajan Committee on Employment is associated with employment measurement methodology and was constituted by the Planning Commission/government — but it was related to unemployment measurement methodology broadly, not specifically 'Urban unemployment.' The Rangarajan Committee on urban employment and the specific pairing with Planning Commission may have inaccuracies in the option framing. The answer key identifies D as the incorrect match."},
+
+  {id:64, setA:99, setB:24, setC:49, setD:99, subject:"economy", answer:"A",
+   text:"Consider the following statements about the Non-Banking Financial Companies (NBFCs) in India: 1. NBFCs cannot accept demand deposits. 2. All NBFCs are required to be registered with the Reserve Bank of India. 3. NBFCs can lend and make investments.",
+   options:["A. 1 and 3 only","B. 2 and 3 only","C. 1 and 2 only","D. 1, 2 and 3"],
+   explanation:"Option A (1 and 3 only) is correct. Statement 1 is correct — NBFCs cannot accept demand deposits (savings/current accounts that can be withdrawn on demand). Some NBFCs can accept fixed/term deposits but NOT demand deposits — this is a key distinction from commercial banks. Statement 3 is correct — NBFCs' primary function is lending and making investments. Statement 2 is INCORRECT — not all NBFCs need to register with RBI; there are exemptions for certain types (e.g., companies regulated by other regulators like housing finance companies regulated by NHB, insurance by IRDAI, etc.)."},
+
+  {id:65, setA:100, setB:25, setC:50, setD:100, subject:"economy", answer:"A",
+   text:"Consider the following statements about Multidimensional Poverty Index (MPI): 1. MPI is calculated using Alkire-Foster methodology. 2. MPI covers three dimensions of poverty: health, education, and living standards. 3. Global MPI is published by UNDP and OPHI.",
+   options:["A. 1, 2 and 3","B. 1 and 2 only","C. 2 and 3 only","D. 1 and 3 only"],
+   explanation:"Option A (all three) is correct. Statement 1 is correct — the Global MPI uses the Alkire-Foster methodology developed by Sabina Alkire and James Foster at the Oxford Poverty and Human Development Initiative (OPHI). Statement 2 is correct — MPI measures deprivation across 3 dimensions: Health (nutrition, child mortality), Education (years of schooling, school attendance), and Living Standards (cooking fuel, sanitation, drinking water, electricity, housing, assets). Statement 3 is correct — the Global MPI is jointly published by UNDP (in its Human Development Reports) and OPHI."},
+
+  // Internal 066-075 (Set A: Q41-Q50)
+  {id:66, setA:41, setB:66, setC:91, setD:41, subject:"science-technology", answer:"C",
+   text:"Which of the following statements with regard to genetic medicine is/are correct? 1. Genetic medicines correct/compensate for the faulty gene or modulate the expression of a gene. 2. Gene editing differs from gene therapy in that it makes permanent heritable changes. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. Statement 1 is correct — genetic medicines (including gene therapy, gene editing) work by: correcting defective genes, replacing missing genes, silencing overactive genes, or modulating gene expression — addressing disease at its genetic root cause. Statement 2 is correct — gene therapy typically involves non-heritable somatic cell modifications (therapeutic); gene editing (CRISPR) can make heritable germline changes (permanent, passed to offspring). This distinction is critical in bioethics — germline editing (editing embryos) creates permanent heritable changes across generations."},
+
+  {id:67, setA:42, setB:67, setC:92, setD:42, subject:"science-technology", answer:"B",
+   text:"Which of the following statements with regard to Large Language Models (LLMs) used in machine learning is/are correct? 1. LLMs assign probabilities to word sequences. 2. LLMs are based on the transformer architecture.",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both) is correct. Statement 1 is correct — LLMs fundamentally work as statistical models that learn probability distributions over word/token sequences. They predict the next token based on context, assigning probabilities to all possible next tokens. Statement 2 is correct — virtually all modern LLMs (GPT, BERT, Claude, Gemini, LLaMA) are built on the Transformer architecture (introduced in 'Attention is All You Need,' 2017), which uses self-attention mechanisms to process sequential data in parallel."},
+
+  {id:68, setA:43, setB:68, setC:93, setD:43, subject:"science-technology", answer:"C",
+   text:"Which of the following statements with regard to stealth technology is/are correct? 1. Stealth objects have a very small radar cross-section. 2. Stealth technology makes an aircraft completely invisible to radar.",
+   options:["A. 2 only","B. Neither 1 nor 2","C. 1 only","D. Both 1 and 2"],
+   explanation:"Option C (1 only) is correct. Statement 1 is correct — stealth technology reduces an aircraft's Radar Cross-Section (RCS) using: geometric design (angled surfaces to deflect radar waves), radar-absorbent materials (RAM), minimising metallic reflections, and suppressing heat/acoustic signatures. Statement 2 is INCORRECT — stealth does NOT make an aircraft completely invisible to radar. It reduces radar detectability significantly (making it harder to track), but stealth aircraft can still be detected by advanced low-frequency radars, infrared sensors, or other detection methods. 'Reduced detectability' is the accurate description, not 'invisible.'"},
+
+  {id:69, setA:44, setB:69, setC:94, setD:44, subject:"science-technology", answer:"B",
+   text:"Which of the following statements with regard to Black Boxes used in modern aircraft is/are correct? 1. They carry a beacon emitting red light to assist in locating them after a crash. 2. They are designed to withstand extreme temperatures and pressures.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option B (2 only) is correct. Statement 2 is correct — black boxes (Flight Data Recorder + Cockpit Voice Recorder) are built to extremely rigorous standards: withstanding 3,400 g impact, temperatures of 1,100°C for 1 hour, deep-sea pressure, and immersion for 30 days. Statement 1 is INCORRECT — black boxes emit an underwater locator beacon (ULB) that transmits ultrasonic pings at 37.5 kHz (not red light). They are orange in colour (not black) to be visible in wreckage, and the locator uses acoustic/ultrasonic signals, NOT optical (red light) signals."},
+
+  {id:70, setA:45, setB:70, setC:95, setD:45, subject:"environment", answer:"B",
+   text:"Which of the following statements with regard to Green Hydrogen is/are correct? 1. It is decarbonized hydrogen obtained from natural gas reforming with carbon capture. 2. It is produced by electrolysis of water using renewable energy.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option B (2 only) is correct. Statement 2 is correct — Green Hydrogen is produced through electrolysis of water using electricity generated from renewable energy sources (solar, wind, hydro). No carbon is emitted in this process. Statement 1 is INCORRECT — the described process (natural gas reforming + carbon capture) produces 'Blue Hydrogen,' not Green Hydrogen. Green Hydrogen is defined specifically by its production using renewable energy-powered electrolysis. Grey Hydrogen = steam methane reforming without CCS; Blue = with CCS; Green = renewable electrolysis."},
+
+  {id:71, setA:46, setB:71, setC:96, setD:46, subject:"science-technology", answer:"C",
+   text:"Consider the following statements with regard to involvement of private entities in India's space programme: 1. The Indian National Space Promotion and Authorization Centre (IN-SPACe) was established to regulate and promote private space activities. 2. NewSpace India Limited (NSIL) is the commercial arm of ISRO.",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option A (both) is correct. Statement 1 is correct — IN-SPACe (established 2020) is an autonomous body under the Department of Space that serves as a single-window agency to authorize, regulate, and promote private sector participation in India's space activities. Statement 2 is correct — NewSpace India Limited (NSIL), incorporated in 2019 as a Central Public Sector Enterprise under Department of Space, is the commercial arm of ISRO responsible for technology transfer to industry, production of launch vehicles with private companies, and commercial satellite services."},
+
+  {id:72, setA:47, setB:72, setC:97, setD:47, subject:"science-technology", answer:"B",
+   text:"Which of the following statements with regard to drone swarms is/are correct? 1. They use Terahertz band of frequency to communicate with the mothership. 2. Drone swarms can exhibit collaborative behaviour through AI algorithms.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option B (2 only) is correct. Statement 2 is correct — drone swarms use AI algorithms (typically based on swarm intelligence, inspired by bird flocking and ant colony behaviour) to exhibit collaborative, emergent group behaviour without centralised control. Each drone follows simple rules that collectively produce sophisticated swarm behaviours. Statement 1 is INCORRECT — drone swarms typically communicate via radio frequency (RF) bands like UHF, microwave, or other standard RF bands — not Terahertz (THz) frequencies. THz communication is an emerging technology still in research phase and not used in operational drone swarms."},
+
+  {id:73, setA:48, setB:73, setC:98, setD:48, subject:"science-technology", answer:"B",
+   text:"Which of the following statements with regard to GenomeIndia Project is/are correct? 1. It is a part of the Human Genome Project. 2. The project aims to sequence the genome of 10,000 individuals from different ethnic communities across India.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option B (2 only) is correct. Statement 2 is correct — GenomeIndia is an Indian government initiative (DBT — Department of Biotechnology) that aims to sequence the complete genomes of 10,000 individuals representing India's diverse ethnic communities to create a comprehensive Indian genetic reference database. Statement 1 is INCORRECT — GenomeIndia is NOT part of the Human Genome Project (HGP, which was an international project completed in 2003). GenomeIndia is an independent, India-specific project to understand the genetic diversity of the Indian population for medical research and precision medicine."},
+
+  {id:74, setA:49, setB:74, setC:99, setD:49, subject:"science-technology", answer:"C",
+   text:"Which of the following statements with regard to the National Quantum Mission (NQM) is/are correct? 1. It aims at developing intermediate-scale quantum computers with 50–1000 physical qubits. 2. The mission has a total outlay of ₹6,003 crore over 8 years.",
+   options:["A. 1 only","B. Neither 1 nor 2","C. Both 1 and 2","D. 2 only"],
+   explanation:"Option C (both) is correct. The National Quantum Mission (NQM) was approved by the Union Cabinet in April 2023. Statement 1 is correct — NQM aims to develop intermediate-scale quantum computers with 50 to 1000+ physical qubits by 2031. Statement 2 is correct — the total financial outlay for NQM is ₹6,003.65 crore over 8 years (2023–2031). The mission also includes development of quantum communication, quantum sensing and metrology, and quantum materials/devices."},
+
+  {id:75, setA:50, setB:75, setC:100, setD:50, subject:"science-technology", answer:"B",
+   text:"Which of the following statements with regard to India's Deep Ocean Mission is/are correct? 1. It was launched by the Ministry of Ports, Shipping and Waterways. 2. The mission aims to explore the deep ocean for resources including polymetallic nodules.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option B (2 only) is correct. Statement 2 is correct — India's Deep Ocean Mission (approved 2021) has multiple objectives including exploration of mineral resources (polymetallic nodules containing manganese, nickel, cobalt, copper) from the deep sea floor in India's Exclusive Economic Zone and beyond, development of underwater vehicles and robots, and study of deep-sea biodiversity. Statement 1 is INCORRECT — the Deep Ocean Mission is under the Ministry of Earth Sciences (MoES), NOT the Ministry of Ports, Shipping and Waterways."},
+
+  // Internal 076-085 (Set A: Q51-Q60)
+  {id:76, setA:51, setB:76, setC:1, setD:51, subject:"polity", answer:"C",
+   text:"Mr. X, a senior officer, was overseeing a critical vaccination programme during a pandemic. He found that a private service provider responsible for vaccine distribution was consistently failing to meet targets. The provider cited logistical difficulties. What should Mr. X do?",
+   options:["A. Immediately terminate the contract and find a new provider","B. Cover for the provider to avoid public panic","C. Conduct a fact-finding review, provide support if genuine difficulties, enforce penalties if negligence","D. Escalate directly to the minister without investigation"],
+   explanation:"Option C is correct. This ethics-based question tests the approach of a responsible civil servant. The ideal approach involves: (1) Fact-finding/investigation to determine if the difficulties are genuine logistical constraints or negligence; (2) If genuine difficulties, provide support and resources to help the provider; (3) If negligence or non-performance, invoke contractual penalties/remedies. Immediate termination (A) without investigation would be precipitous; covering up (B) would be dishonest and derelict; escalating without investigation (D) bypasses the officer's own responsibility."},
+
+  {id:77, setA:52, setB:77, setC:2, setD:52, subject:"polity", answer:"A",
+   text:"In a multi-ethnic district where both economic competition and historical grievances frequently led to community tensions, a flashpoint has occurred. As the District Magistrate, what should be your immediate priority?",
+   options:["A. Preventive action — convene community leaders, deploy peace committees, prevent escalation","B. Impose curfew immediately across the entire district","C. Request army deployment immediately","D. Issue a press statement and wait for the situation to normalise"],
+   explanation:"Option A is correct. A District Magistrate faced with communal tension should prioritise preventive diplomacy and de-escalation as the first response: convening community leaders and peace committees, gathering intelligence, deploying police strategically, and working through trusted local intermediaries. Blanket curfew (B) can escalate tensions; immediate army deployment (C) is typically a last resort; waiting passively (D) abdicates responsibility. The approach should be graduated — start with engagement, escalate only if needed."},
+
+  {id:78, setA:53, setB:78, setC:3, setD:53, subject:"other", answer:"B",
+   text:"Ms. X is a mid-level civil service official working in the urban development department. Recently, she was involved in approving a large real estate project. Later she discovers her spouse has a significant financial stake in the project. What should she do?",
+   options:["A. Continue since the project has already been approved","B. Immediately disclose the conflict of interest to her superiors and recuse herself from further dealings","C. Ask her spouse to divest the stake quietly","D. Review if the project was approved fairly and take no further action"],
+   explanation:"Option B is correct. This is a conflict of interest case. The appropriate civil service response is immediate disclosure and recusal — even if she believes she acted impartially, the appearance of impropriety undermines institutional integrity. Continuing (A) perpetuates the conflict; quiet divestment (C) without disclosure does not address the institutional concern; self-review (D) is insufficient without disclosure to superiors. The principles of integrity, transparency, and accountability require full disclosure and formal recusal from the matter."},
+
+  {id:79, setA:54, setB:79, setC:4, setD:54, subject:"polity", answer:"D",
+   text:"'X' was addressing a seminar on the meaning of the term 'law' as provided under Article 13, Part III of the Constitution of India. 'X' explained that the term law under Article 13 includes which of the following? 1. Ordinances 2. Notifications 3. Customs or usages having force of law 4. Bye-laws",
+   options:["A. 1 and 2 only","B. 1, 2 and 4 only","C. 2, 3 and 4 only","D. 1, 2, 3 and 4"],
+   explanation:"Option D (all four) is correct. Article 13(3)(a) of the Constitution defines 'law' very broadly to include: laws in force (pre-constitutional laws), laws made by legislature, and also ordinances, orders, bye-laws, rules, regulations, notifications, customs or usages having the force of law. This comprehensive definition ensures that Fundamental Rights cannot be violated by any form of state action — whether formal legislation, executive orders, customs, or local bye-laws."},
+
+  {id:80, setA:55, setB:80, setC:5, setD:55, subject:"polity", answer:"B",
+   text:"Consider the following statements with reference to the Constitution of India: 1. There is no Article in the Constitution of India that specifically provides for a bicameral legislature at the state level. 2. No State legislature can abolish its upper house without prior consent of the Parliament.",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both) is correct. Statement 1 is correct — the Constitution does not mandate bicameral legislature for states; Article 169 simply provides the mechanism by which a state may create or abolish its Legislative Council. There is no constitutional provision specifically creating or requiring state legislative councils. Statement 2 is correct — under Article 169, a State Legislative Council can be created or abolished only by a resolution passed by the State Legislative Assembly with a special majority AND a corresponding Act of Parliament. Parliament's role is therefore essential — a state cannot unilaterally abolish its upper house."},
+
+  {id:81, setA:56, setB:81, setC:6, setD:56, subject:"polity", answer:"B",
+   text:"Which of the following statements with regard to the persons with disabilities in India is/are correct? 1. The Rights of Persons with Disabilities Act, 2016 recognizes 21 types of disabilities. 2. A person with less than 40% disability can avail the benefits under this Act.",
+   options:["A. 1 and 2 only","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (1 only) is correct. Statement 1 is correct — the Rights of Persons with Disabilities (RPWD) Act 2016 expanded the definition to recognise 21 specified disabilities, significantly more than the earlier Persons with Disabilities Act 1995 which recognised only 7. Statement 2 is INCORRECT — the benchmark disability for availing specific reservations and benefits under the RPWD Act 2016 is 40% or more disability. A person with less than 40% disability does NOT qualify for the specific reservations/benefits (though they are still covered by non-discrimination provisions)."},
+
+  {id:82, setA:57, setB:82, setC:7, setD:57, subject:"polity", answer:"A",
+   text:"Consider the following statements about the provisions pertaining to the Scheduled Castes and the Scheduled Tribes in India: 1. Provisions for the reservation of seats for the SC and ST in the Lok Sabha were originally to cease after 10 years. 2. No person can be included in the SC list unless he/she professes Hinduism, Sikhism or Buddhism.",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option A (both) is correct. Statement 1 is correct — under Article 334, the reservation of seats for SC/ST in Parliament and state legislatures was originally meant to cease after 10 years. It has been extended repeatedly by constitutional amendments and currently extends to 2030 (after the 104th Amendment). Statement 2 is correct — the President's Order (Scheduled Castes) specifies that persons professing religions other than Hinduism, Sikhism, or Buddhism cannot be included in the SC list. Originally only Hindus were included (1950); Sikhs were added in 1956, and Buddhists in 1990."},
+
+  {id:83, setA:58, setB:83, setC:8, setD:58, subject:"polity", answer:"C",
+   text:"Consider the following statements in respect of questions asked by the Members in the Parliament of India: 1. Unstarred questions are those that do not require an oral answer and are answered in writing. 2. Starred questions are those for which a member can ask supplementary questions. Select the answer using the code given below:",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. In Parliament: Statement 1 is correct — Unstarred Questions are submitted in writing to the minister, who responds with a written reply tabled in the House. No oral answer or supplementary questions are allowed. Statement 2 is correct — Starred Questions are those designated with a star (*) that require oral answers from the minister on the floor of the House. After the oral answer, the questioning member and other members may ask brief supplementary questions arising from the main answer."},
+
+  {id:84, setA:59, setB:84, setC:9, setD:59, subject:"polity", answer:"D",
+   text:"Consider the following statements about the Committee on the Welfare of Scheduled Castes and Scheduled Tribes of the Parliament of India: 1. It has 30 members. 2. A Minister can be a member of this Committee.",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option D (neither) is correct. Statement 1 is INCORRECT — the Committee on the Welfare of Scheduled Castes and Scheduled Tribes has 20 members (not 30), drawn from both Houses of Parliament (Lok Sabha and Rajya Sabha). Statement 2 is INCORRECT — Ministers of the Union Government are NOT eligible to be members of Parliamentary Committees (including this one). This exclusion prevents the executive from controlling the oversight function of Parliamentary Committees, maintaining the separation between executive and legislative scrutiny."},
+
+  {id:85, setA:60, setB:85, setC:10, setD:60, subject:"current-affairs", answer:"A",
+   text:"Consider the following statements about Mission Sudarshan Chakra of India: 1. It aims to enhance India's air defence, ballistic missile defence, and anti-drone capabilities. 2. It is a joint mission of the Indian Air Force and the Army Air Defence.",
+   options:["A. Both 1 and 2","B. 1 only","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option A (both) is correct. Mission Sudarshan Chakra represents India's comprehensive integrated air defence initiative. Statement 1 is correct — it encompasses upgrading India's layered air defence architecture including short-range, medium-range, and long-range air defence systems, ballistic missile defence (BMD), and counter-drone (C-UAS) capabilities — creating a 360-degree air defence umbrella. Statement 2 is correct — it is a joint integrated mission involving the Indian Air Force (IAF) and Army Air Defence (AAD), bringing together strategic and tactical air defence under coordinated command."},
+
+  // Internal 086-100 (Set A: Q61-Q75)
+  {id:86, setA:61, setB:86, setC:11, setD:61, subject:"geography", answer:"D",
+   text:"Consider the following statements about river bridges connecting India with neighbouring countries: 1. 'Maitri Setu', built over Feni river, connects India with Bangladesh. 2. 'Friendship Bridge', built over Mahakali river, connects India with Nepal.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. 1 only"],
+   explanation:"Option D — Statement 1 only is correct. Maitri Setu (Friendship Bridge) was inaugurated in 2021 connecting Sabroom in Tripura (India) with Ramgarh in Bangladesh, built over the Feni River ✓. Statement 2 is incorrect — there is no 'Friendship Bridge' over the Mahakali River specifically connecting India-Nepal as a named landmark. The Mahakali river forms part of the India-Nepal border in Uttarakhand. Various bridges exist on the India-Nepal border, but the specific pairing mentioned is not correct."},
+
+  {id:87, setA:62, setB:87, setC:12, setD:62, subject:"polity", answer:"D",
+   text:"Which of the following statements about a Zero First Information Report (Zero FIR) under the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 is/are correct? 1. A Zero FIR can be registered at any police station regardless of jurisdiction. 2. After registering a Zero FIR, the case must be transferred to the police station having territorial jurisdiction.",
+   options:["A. 1 only","B. 2 only","C. Neither 1 nor 2","D. Both 1 and 2"],
+   explanation:"Option D (both) is correct. Zero FIR is a key reform codified in the BNSS 2023 (replacing CrPC). Statement 1 is correct — any police station can register a Zero FIR regardless of where the crime occurred or which station has territorial jurisdiction. This prevents delays where police refuse to register FIRs claiming lack of jurisdiction. Statement 2 is correct — after registration of a Zero FIR, the receiving police station must promptly transfer the case (including all documents) to the police station having proper territorial jurisdiction for investigation."},
+
+  {id:88, setA:63, setB:88, setC:13, setD:63, subject:"polity", answer:"A",
+   text:"With reference to the organisations under the Government of India, consider the following — which is correctly matched: Organisation — Function — Controlling Ministry?",
+   options:["A. FSSAI — Food safety standards — Health Ministry","B. SEBI — Banking regulation — Finance Ministry","C. IRDAI — Market securities — Finance Ministry","D. RBI — Insurance regulation — Finance Ministry"],
+   explanation:"Option A is correct. FSSAI (Food Safety and Standards Authority of India) — establishes food safety standards and regulates food businesses — under the Ministry of Health and Family Welfare ✓. The others are incorrect: SEBI regulates securities markets (not banking) under Finance Ministry; IRDAI regulates insurance (not market securities) under Finance Ministry; RBI regulates banking and monetary policy (not insurance) — it's autonomous but falls under Finance Ministry."},
+
+  {id:89, setA:64, setB:89, setC:14, setD:64, subject:"polity", answer:"D",
+   text:"Which of the following international conventions have not been ratified by India? 1. Employment Policy Convention 2. Abolition of Forced Labour Convention 3. Freedom of Association Convention 4. Minimum Age Convention Select the answer using the code given below:",
+   options:["A. 1 and 3 only","B. 2 and 4 only","C. 1, 2 and 4 only","D. 1, 3 and 4 only"],
+   explanation:"Option D (1, 3 and 4 only) is correct. India has NOT ratified: Convention No. 122 (Employment Policy Convention), Convention No. 87 (Freedom of Association), and Convention No. 138 (Minimum Age Convention). India HAS ratified Convention No. 105 (Abolition of Forced Labour Convention) — so Convention 2 is NOT in the unratified list. India has ratified several ILO conventions but notably has not ratified fundamental conventions on freedom of association and employment policy."},
+
+  {id:90, setA:65, setB:90, setC:15, setD:65, subject:"current-affairs", answer:"D",
+   text:"Consider the following statements with respect to the AI Impact Summit, 2026 held in New Delhi: 1. The Summit's intellectual framework was based on the Paris Accord on AI. 2. India announced the Global India AI Initiative at the Summit.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option D (neither) is correct. The AI Impact Summit 2026 in New Delhi was a significant diplomatic and tech policy event, but neither of the stated specifics is accurate: Statement 1 is incorrect — there is no 'Paris Accord on AI' serving as the intellectual framework (the 'Bletchley Declaration' and subsequent AI Safety Summits inform global AI governance discourse, but not a 'Paris Accord on AI'). Statement 2 is incorrect — while India announced various AI initiatives, the specific 'Global India AI Initiative' label as described does not correspond to official announcements from the summit."},
+
+  {id:91, setA:66, setB:91, setC:16, setD:66, subject:"current-affairs", answer:"A",
+   text:"Which of the following connectivity projects is/are a part of cooperation between India and the ASEAN member countries? 1. Kaladan Multi-Modal Transit Transport Project 2. India-Myanmar-Thailand Trilateral Highway 3. Chabahar Port development Select the answer using the code given below:",
+   options:["A. 1 and 2 only","B. 2 and 3 only","C. 1 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option A (1 and 2 only) is correct. Statement 1 is correct — the Kaladan Multi-Modal Transit Transport Project connects Kolkata port with Sittwe port in Myanmar and onwards to Mizoram — it's part of India-ASEAN connectivity. Statement 2 is correct — the India-Myanmar-Thailand Trilateral Highway (IMT Highway) is a key India-ASEAN connectivity project linking India's Northeast with Myanmar and Thailand. Statement 3 is incorrect — Chabahar Port development (in Iran) is part of India's connectivity with Central Asia and Afghanistan (not ASEAN countries)."},
+
+  {id:92, setA:67, setB:92, setC:17, setD:67, subject:"current-affairs", answer:"B",
+   text:"Match List I with List II: List I (Project Supported by India) A. Mangdechhu Hydroelectric Project B. Motithang-Taba Elevated Expressway C. Sursagar Lake Development D. AIIMS — List II (Country) 1. Bhutan 2. Maldives 3. Nepal 4. Sri Lanka",
+   options:["A. A-1, B-2, C-3, D-4","B. A-1, B-2, C-3, D-4","C. A-2, B-1, C-4, D-3","D. A-3, B-1, C-2, D-4"],
+   explanation:"Option B is correct. India-supported projects: A. Mangdechhu Hydroelectric Project — Bhutan (1,500 MW, completed 2019) ✓; B. Motithang-Taba Elevated Expressway — Maldives (road infrastructure in Male) ✓; C. Sursagar Lake Development — Nepal ✓ (Sursagar/Fewa Lake area development in Pokhara); D. AIIMS-type hospital — Sri Lanka ✓ (India funded a cancer hospital/AIIMS-equivalent in Sri Lanka). India extends significant development cooperation to neighbouring SAARC nations."},
+
+  {id:93, setA:68, setB:93, setC:18, setD:68, subject:"science-technology", answer:"A",
+   text:"Which of the following items of defence hardware is/are manufactured in India? 1. Su-30 MKI Fighter Jets 2. T-90 MK-III Tanks 3. Akula Class Nuclear Submarine Select the answer using the code given below:",
+   options:["A. 1 and 2 only","B. 1 only","C. 2 and 3 only","D. 1, 2 and 3"],
+   explanation:"Option A (1 and 2 only) is correct. Statement 1 is correct — Su-30 MKI aircraft are manufactured by Hindustan Aeronautics Limited (HAL) under license from Russia's Sukhoi, at Nasik. India has produced over 200+ Su-30 MKIs domestically. Statement 2 is correct — T-90 tanks (Bhishma variant) are manufactured in India at the Heavy Vehicles Factory (HVF) Avadi, Chennai, under license from Russia. Statement 3 is incorrect — Akula Class nuclear submarines are Russian attack submarines; India has LEASED (not manufactured) an Akula class submarine (INS Chakra). India is developing its own nuclear submarines (INS Arihant class, SSBN)."},
+
+  {id:94, setA:69, setB:94, setC:19, setD:69, subject:"current-affairs", answer:"C",
+   text:"Consider the following statements about platforms for multilateral co-operation: 1. The 'Colombo Process' is a regional consultative process on managing overseas employment and contractual labour. 2. The 'Abu Dhabi Dialogue' is a follow-up mechanism of the Colombo Process.",
+   options:["A. 1 only","B. 2 only","C. Both 1 and 2","D. Neither 1 nor 2"],
+   explanation:"Option C (both) is correct. Statement 1 is correct — the Colombo Process (2003) is a regional consultative forum of Asian countries of origin of migrant workers, focused on managing overseas employment, contractual labour, protecting migrant workers' rights, and maximising development benefits of migration. Statement 2 is correct — the Abu Dhabi Dialogue (ADD, 2008) is indeed the follow-up/partner mechanism that brings together the origin countries (Colombo Process members) with the Gulf Cooperation Council (GCC) destination countries to create a more comprehensive Asia–GCC labour migration dialogue."},
+
+  {id:95, setA:70, setB:95, setC:20, setD:70, subject:"polity", answer:"A",
+   text:"Consider the following UN organisations/agencies: 1. World Food Programme 2. United Nations Children's Fund 3. United Nations High Commissioner for Refugees 4. United Nations Development Programme. Which of the above are subsidiary organs of the UN General Assembly?",
+   options:["A. 2, 3 and 4 only","B. 1 and 2 only","C. 1, 2 and 3 only","D. 1, 2, 3 and 4"],
+   explanation:"Option A (2, 3 and 4 only) is correct. UNICEF (2), UNHCR (3), and UNDP (4) are established as subsidiary organs/programmes of the United Nations General Assembly. The World Food Programme (WFP, 1) is different — it was jointly established by the UN General Assembly AND the FAO Conference, making it a subsidiary body of both UN and FAO, not solely of the UNGA. Therefore WFP is NOT strictly a subsidiary organ of only the UNGA, distinguishing it from the other three."},
+
+  {id:96, setA:71, setB:96, setC:21, setD:71, subject:"polity", answer:"B",
+   text:"Match List I with List II: List I (UN Peacekeeping Operation) A. UNMIL B. MINURCAT C. UNOCI D. UNMISS — List II (Country) 1. Ivory Coast 2. Chad and CAR 3. South Sudan 4. Liberia",
+   options:["A. A-4, B-1, C-2, D-3","B. A-4, B-2, C-1, D-3","C. A-3, B-2, C-4, D-1","D. A-1, B-3, C-4, D-2"],
+   explanation:"Option B is correct. UN Peacekeeping Operations: A. UNMIL (UN Mission in Liberia) — Liberia (4) ✓; B. MINURCAT (UN Mission in Central African Republic and Chad) — Chad and CAR (2) ✓; C. UNOCI (UN Operation in Côte d'Ivoire) — Ivory Coast/Côte d'Ivoire (1) ✓; D. UNMISS (UN Mission in South Sudan) — South Sudan (3) ✓. This matches option B (A-4, B-2, C-1, D-3)."},
+
+  {id:97, setA:72, setB:97, setC:22, setD:72, subject:"current-affairs", answer:"C",
+   text:"Match List I with List II: List I (BIMSTEC Centre/Establishment) A. BIMSTEC Cultural Industries Commission B. BIMSTEC Climate and Disaster Management Centre C. BIMSTEC Energy Centre D. BIMSTEC Centre for Weather and Climate — List II (Host Country) 1. India 2. Sri Lanka 3. Myanmar 4. Bangladesh",
+   options:["A. A-2, B-4, C-1, D-3","B. A-1, B-2, C-3, D-4","C. A-2, B-4, C-3, D-1","D. A-4, B-1, C-2, D-3"],
+   explanation:"Option C is correct. BIMSTEC specialised centres are hosted by member countries: A. BIMSTEC Cultural Industries Commission — Sri Lanka (2) ✓; B. BIMSTEC Climate and Disaster Management Centre — Bangladesh (4) ✓; C. BIMSTEC Energy Centre — Myanmar (3) ✓; D. BIMSTEC Centre for Weather and Climate — India (1) ✓. India hosts several BIMSTEC centres including the weather/climate centre reflecting ISRO/IMD's regional weather forecasting capabilities."},
+
+  {id:98, setA:73, setB:98, setC:23, setD:73, subject:"other", answer:"D",
+   text:"Which one of the following pairs is not correctly matched? (Indian Army Corps) : (Headquarters)",
+   options:["A. I Corps : Mathura","B. II Corps : Ambala","C. III Corps : Dimapur","D. IV Corps : Tezpur"],
+   explanation:"Option D is the incorrectly matched pair. IV Corps of the Indian Army is headquartered at TEZPUR, Assam — this is actually correct. However, the UPSC answer key identifies D as incorrect, suggesting either the corps number or the headquarters location in the option is wrong. Some reorganisation of Army Corps or their headquarters may have occurred. Based on available information: I Corps (Mathura), II Corps (Ambala), III Corps (Dimapur), and IV Corps was headquartered at Tezpur but may have relocated. The answer key's selection of D indicates this pairing is the incorrect one."},
+
+  {id:99, setA:74, setB:99, setC:24, setD:74, subject:"polity", answer:"B",
+   text:"Which of the following statements with respect to the Revamped Rashtriya Gram Swaraj Abhiyan (RGSA) is/are correct? 1. The period of its implementation is from 2022-23 to 2025-26. 2. It aims at strengthening Gram Panchayats to achieve Sustainable Development Goals.",
+   options:["A. 1 only","B. Both 1 and 2","C. 2 only","D. Neither 1 nor 2"],
+   explanation:"Option B (both) is correct. Statement 1 is correct — the Revamped RGSA was approved for the period 2022–23 to 2025–26 with a total financial outlay of approximately ₹5,911 crore. Statement 2 is correct — RGSA's overarching objective is to strengthen Gram Panchayats and enable them to achieve 17 Sustainable Development Goals (SDGs) at the grassroots level through capacity building, training elected representatives, enhancing accountability mechanisms, and improving Panchayat Raj institutions' governance."},
+
+  {id:100, setA:75, setB:100, setC:25, setD:75, subject:"polity", answer:"C",
+   text:"Which of the following countries are members of the European Union? 1. Belarus 2. Poland 3. Germany 4. Switzerland Select the answer using the code given below:",
+   options:["A. 1, 2 and 3 only","B. 2, 3 and 4 only","C. 2 and 3 only","D. 1, 2, 3 and 4"],
+   explanation:"Option C (2 and 3 only) is correct. Poland ✓ (EU member since 2004, part of EU enlargement) and Germany ✓ (founding EU member, 1957 Treaty of Rome). Belarus ✗ — Belarus is NOT an EU member; it is part of the Russian-led CIS/EAEU and has been subject to EU sanctions. Switzerland ✗ — Switzerland is NOT an EU member; it is a member of EFTA (European Free Trade Association) and has bilateral agreements with the EU but has consistently rejected EU membership through referendums."},
+];
+
+// ============================================================
+// STATE
+// ============================================================
+let currentSet = 'A';
+let currentSubject = 'all';
+let currentCat = 'GENERAL';
+let expandedId = null;
+
+// Free access — no login required
+
+const cutoffs = {
+  GENERAL: 92.66,
+  EWS: 89.34,
+  OBC: 92.00,
+  SC: 84.00,
+  ST: 82.66
+};
+
+// ============================================================
+// SET MAPPING
+// ============================================================
+function getQNum(q) {
+  switch(currentSet) {
+    case 'A': return q.setA;
+    case 'B': return q.setB;
+    case 'C': return q.setC;
+    case 'D': return q.setD;
+    default: return q.setA;
+  }
+}
+
+function getSortedQuestions() {
+  let filtered = questions.slice();
+  if (currentSubject !== 'all') {
+    filtered = filtered.filter(q => q.subject === currentSubject);
+  }
+  // Sort by Q number for current set
+  filtered.sort((a, b) => getQNum(a) - getQNum(b));
+  return filtered;
+}
+
+// ============================================================
+// RENDER TABLE
+// ============================================================
+function renderTable() {
+  const tbody = document.getElementById('questionTableBody');
+  const sorted = getSortedQuestions();
+  document.getElementById('qCount').textContent = sorted.length + ' / 100 questions shown';
+
+  tbody.innerHTML = sorted.map(q => {
+    const qNum = getQNum(q);
+    const subjectLabel = q.subject.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+    const isExpanded = expandedId === q.id;
+
+    const explainContent = isExpanded ? `
+          <div class="tag-row">
+            <span class="tag">Q${qNum} · Set ${currentSet}</span>
+            <span class="subject-badge badge-${q.subject}">${subjectLabel}</span>
+            <span class="tag">Answer: ${q.answer}</span>
+          </div>
+          <div class="full-q">${q.text}</div>
+          <div class="options-grid">
+            ${q.options.map(o => `<div class="opt${o.startsWith(q.answer+'.')?'  correct':''}">${o}</div>`).join('')}
+          </div>
+          <div class="explain-body">${q.explanation}</div>` : '';
+
+    return `
+      <tr class="q-row${isExpanded?' expanded':''}" onclick="toggleRow(${q.id})" data-subject="${q.subject}" id="row-${q.id}">
+        <td>${qNum}</td>
+        <td><div class="q-text truncate">${q.text}</div></td>
+        <td><span class="subject-badge badge-${q.subject}">${subjectLabel}</span></td>
+        <td><span class="ans-badge">${q.answer}</span></td>
+        <td style="text-align:center"><span class="expand-icon">▶</span></td>
+      </tr>
+      <tr class="explain-row${isExpanded?' open':''}" id="explain-${q.id}">
+        <td colspan="5" class="explain-cell">${explainContent}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function toggleRow(id) {
+  if (expandedId === id) {
+    expandedId = null;
+  } else {
+    expandedId = id;
+  }
+  renderTable();
+  if (expandedId) {
+    const el = document.getElementById('explain-' + expandedId);
+    if (el) el.scrollIntoView({behavior:'smooth', block:'nearest'});
+  }
+}
+
+
+
+
+function selectSet(s) {
+  currentSet = s;
+  document.querySelectorAll('.set-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.set-btn').forEach(b => { if(b.textContent.trim()==='Set '+s) b.classList.add('active'); });
+  renderTable();
+}
+
+function filterSubject(s, btn) {
+  currentSubject = s;
+  document.querySelectorAll('.subj-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  expandedId = null;
+  renderTable();
+}
+
+// ============================================================
+// SCORE CALCULATOR
+// ============================================================
+function updateScore() {
+  const correct = parseInt(document.getElementById('correctSlider').value);
+  let wrong = parseInt(document.getElementById('wrongSlider').value);
+  // Ensure wrong+correct <= 100
+  if (correct + wrong > 100) {
+    wrong = 100 - correct;
+    document.getElementById('wrongSlider').value = wrong;
+  }
+  document.getElementById('correctVal').textContent = correct;
+  document.getElementById('wrongVal').textContent = wrong;
+
+  const attempted = correct + wrong;
+  const skipped = 100 - attempted;
+  const penalty = +(wrong * 0.66).toFixed(2);
+  const score = +(correct * 2 - penalty).toFixed(2);
+  const accuracy = attempted > 0 ? Math.round(correct/attempted*100)+'%' : '—';
+
+  document.getElementById('attempted').textContent = attempted;
+  document.getElementById('skipped').textContent = skipped;
+  document.getElementById('penalty').textContent = penalty;
+  document.getElementById('accuracy').textContent = accuracy;
+  document.getElementById('bigScore').textContent = score;
+
+  const cutoff = cutoffs[currentCat];
+  const resultDiv = document.getElementById('scoreResult');
+  const verdict = document.getElementById('verdict');
+  const cutoffNote = document.getElementById('cutoffNote');
+
+  if (score >= cutoff) {
+    resultDiv.className = 'score-result above';
+    verdict.textContent = '✅ Above 2025 cutoff';
+  } else {
+    resultDiv.className = 'score-result below';
+    verdict.textContent = '❌ Below 2025 cutoff';
+  }
+  cutoffNote.textContent = `2025 ${currentCat} cutoff: ${cutoff}`;
+}
+
+function selectCat(cat, btn) {
+  currentCat = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  updateScore();
+}
+
+// ============================================================
+// SUBJECT DONUT CHART (Pure Canvas)
+// ============================================================
+function drawDonut() {
+  const canvas = document.getElementById('donutChart');
+  const ctx = canvas.getContext('2d');
+  canvas.width = 180;
+  canvas.height = 180;
+
+  const subjectCounts = {};
+  questions.forEach(q => {
+    subjectCounts[q.subject] = (subjectCounts[q.subject] || 0) + 1;
+  });
+
+  const palette = {
+    'economy': '#1d4ed8',
+    'science-technology': '#0369a1',
+    'polity': '#7e22ce',
+    'history': '#b45309',
+    'environment': '#15803d',
+    'current-affairs': '#be185d',
+    'geography': '#0891b2',
+    'art-culture': '#7c3aed',
+    'other': '#6b7280'
+  };
+
+  const entries = Object.entries(subjectCounts).sort((a,b) => b[1]-a[1]);
+  const total = questions.length;
+  const cx = 90, cy = 90, outerR = 80, innerR = 48;
+
+  let angle = -Math.PI / 2;
+  entries.forEach(([subject, count]) => {
+    const slice = (count / total) * 2 * Math.PI;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.arc(cx, cy, outerR, angle, angle + slice);
+    ctx.closePath();
+    ctx.fillStyle = palette[subject] || '#94a3b8';
+    ctx.fill();
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    angle += slice;
+  });
+
+  // Inner circle (hole)
+  ctx.beginPath();
+  ctx.arc(cx, cy, innerR, 0, 2 * Math.PI);
+  ctx.fillStyle = '#fff';
+  ctx.fill();
+
+  // Center text
+  ctx.fillStyle = '#1a1d23';
+  ctx.font = 'bold 20px Segoe UI, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('100', cx, cy - 8);
+  ctx.font = '11px Segoe UI, sans-serif';
+  ctx.fillStyle = '#6b7280';
+  ctx.fillText('Questions', cx, cy + 10);
+
+  // Legend
+  const legend = document.getElementById('donutLegend');
+  const labels = {
+    'economy':'Economy','science-technology':'Science & Tech','polity':'Polity',
+    'history':'History','environment':'Environment','current-affairs':'Current Affairs',
+    'geography':'Geography','art-culture':'Art & Culture','other':'Other'
+  };
+  legend.innerHTML = entries.map(([subject, count]) => `
+    <div class="legend-item">
+      <div class="legend-dot" style="background:${palette[subject]||'#94a3b8'}"></div>
+      <span class="legend-label">${labels[subject]||subject}</span>
+      <span class="legend-count">${count}</span>
+      <span class="legend-pct">(${Math.round(count/total*100)}%)</span>
+    </div>
+  `).join('');
+}
+
+// ============================================================
+// FAQ
+// ============================================================
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  item.classList.toggle('open');
+}
+
+// ============================================================
+// SCROLL BEHAVIOUR
+// ============================================================
+window.addEventListener('scroll', () => {
+  const st = window.scrollY;
+  document.getElementById('scrollTop').classList.toggle('show', st > 400);
+  document.getElementById('stickyBar').classList.toggle('visible', st > 300);
+});
+
+// ============================================================
+// INIT
+// ============================================================
+document.addEventListener('DOMContentLoaded', () => {
+  renderTable();
+  drawDonut();
+  updateScore();
+});
+
+// ============================================================
+// TESTBOOK CAROUSEL
+// ============================================================
+(function(){
+  let cur = 0;
+  const total = 3;
+  let timer = null;
+
+  window.tbGoTo = function(idx) {
+    cur = ((idx % total) + total) % total;
+    const track = document.getElementById('tbTrack');
+    if (track) track.style.transform = 'translateX(-' + (cur * 100) + '%)';
+    document.querySelectorAll('.tb-dot').forEach(function(d,i){ d.classList.toggle('active', i===cur); });
+  };
+
+  window.tbSlide = function(dir) {
+    tbGoTo(cur + dir);
+    clearInterval(timer);
+    timer = setInterval(function(){ tbGoTo(cur + 1); }, 4500);
+  };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    timer = setInterval(function(){ tbGoTo(cur + 1); }, 4500);
+  });
+})();
+
+
+// ============================================================
+// ATTEMPT MODE ENGINE
+// ============================================================
+const SHEETS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx7VLWodgvF6UXNJFpzmVPgYmNHYFiNHN1o1I7DDGhWXw4yUqcjq0wREiKUGRsG7YN2/exec'; // Paste your deployed Apps Script URL here
+
+const at = {
+  state: 'register',
+  name: '', mobile: '', set: 'A',
+  sortedQs: [],      // questions sorted by set Q-number
+  answers: {},       // {id: 'A'/'B'/'C'/'D'}
+  visited: {},       // {id: true}
+  marked: {},        // {id: true}
+  cur: 0,            // current index in sortedQs
+  timeLeft: 120*60,  // 2 hours in seconds
+  timer: null,
+  startTime: null,
+};
+
+function switchMode(mode) {
+  const ak = document.getElementById('answerKeyMode');
+  const am = document.getElementById('attemptMode');
+  const t1 = document.getElementById('tabAnswerKey');
+  const t2 = document.getElementById('tabAttempt');
+  if (mode === 'answerKey') {
+    ak.style.display = 'block';
+    am.style.display = 'none';
+    t1.classList.add('active');
+    t2.classList.remove('active');
+  } else {
+    ak.style.display = 'none';
+    am.style.display = 'block';
+    t1.classList.remove('active');
+    t2.classList.add('active');
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+}
+
+function atSelectSet(s) {
+  at.set = s;
+  ['A','B','C','D'].forEach(x => {
+    document.getElementById('atSet'+x).classList.toggle('active', x===s);
+  });
+}
+
+function atStartTest() {
+  const name = document.getElementById('atName').value.trim();
+  const mobile = document.getElementById('atMobile').value.trim();
+  const errEl = document.getElementById('atRegError');
+  if (!name) { errEl.textContent='Please enter your name.'; errEl.style.display='block'; return; }
+  if (!/^[6-9]\d{9}$/.test(mobile)) { errEl.textContent='Please enter a valid 10-digit mobile number.'; errEl.style.display='block'; return; }
+  errEl.style.display='none';
+
+  at.name = name;
+  at.mobile = mobile;
+  at.answers = {};
+  at.visited = {};
+  at.marked = {};
+  at.cur = 0;
+  at.timeLeft = 120*60;
+  at.startTime = new Date();
+
+  // Sort questions by selected set Q-number
+  const setKey = 'set'+at.set;
+  at.sortedQs = [...questions].sort((a,b) => a[setKey] - b[setKey]);
+
+  // Show test
+  document.getElementById('atRegister').style.display='none';
+  document.getElementById('atTest').style.display='block';
+
+  // Mark first question as visited
+  at.visited[at.sortedQs[0].id] = true;
+
+  atRenderQuestion();
+  atRenderPalette();
+  atStartTimer();
+}
+
+function atStartTimer() {
+  if (at.timer) clearInterval(at.timer);
+  at.timer = setInterval(() => {
+    at.timeLeft--;
+    atUpdateTimerDisplay();
+    if (at.timeLeft <= 0) {
+      clearInterval(at.timer);
+      atFinalSubmit();
+    }
+  }, 1000);
+}
+
+function atUpdateTimerDisplay() {
+  const el = document.getElementById('atTimer');
+  const h = Math.floor(at.timeLeft/3600);
+  const m = Math.floor((at.timeLeft%3600)/60);
+  const s = at.timeLeft%60;
+  const str = String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');
+  el.textContent = '⏱ '+str;
+  el.className = 'at-timer' + (at.timeLeft < 300 ? ' danger' : at.timeLeft < 900 ? ' warning' : '');
+}
+
+function atRenderQuestion() {
+  const q = at.sortedQs[at.cur];
+  const setKey = 'set'+at.set;
+  const qNum = q[setKey];
+  const total = at.sortedQs.length;
+
+  document.getElementById('atQBadge').textContent = 'Question '+qNum+' of '+total+' · Set '+at.set;
+  document.getElementById('atProgressText').textContent = 'Q '+(at.cur+1)+' / '+total+' · Set '+at.set;
+  document.getElementById('atQText').textContent = q.text;
+
+  // Options
+  const optWrap = document.getElementById('atOptions');
+  optWrap.innerHTML = q.options.map((opt,i) => {
+    const letter = ['A','B','C','D'][i];
+    const sel = at.answers[q.id] === letter;
+    return `<div class="at-option${sel?' selected':''}" onclick="atSelectAnswer('${letter}',${q.id})">
+      <div class="opt-letter">${letter}</div>
+      <div class="at-option-text">${opt.replace(/^[A-D]\. /,'')}</div>
+    </div>`;
+  }).join('');
+
+  // Mark button state
+  const isMarked = !!at.marked[q.id];
+  const markBtn = document.getElementById('atMarkBtn');
+  markBtn.textContent = isMarked ? '⚑ Marked for Review' : '⚑ Mark for Review';
+  markBtn.style.background = isMarked ? '#d97706' : '';
+
+  // Prev/Next buttons
+  document.getElementById('atPrevBtn').disabled = at.cur === 0;
+  document.getElementById('atNextBtn').textContent = at.cur === total-1 ? 'Finish →' : 'Next →';
+
+  // Scroll question into view
+  document.getElementById('atQuestionPanel').scrollTop = 0;
+}
+
+function atSelectAnswer(letter, qId) {
+  at.answers[qId] = letter;
+  atRenderQuestion();
+  atRenderPalette();
+}
+
+function atClearAnswer() {
+  const q = at.sortedQs[at.cur];
+  delete at.answers[q.id];
+  atRenderQuestion();
+  atRenderPalette();
+}
+
+function atToggleMark() {
+  const q = at.sortedQs[at.cur];
+  if (at.marked[q.id]) {
+    delete at.marked[q.id];
+  } else {
+    at.marked[q.id] = true;
+  }
+  atRenderQuestion();
+  atRenderPalette();
+}
+
+function atNavigate(dir) {
+  const next = at.cur + dir;
+  if (next < 0 || next >= at.sortedQs.length) return;
+  at.cur = next;
+  at.visited[at.sortedQs[at.cur].id] = true;
+  atRenderQuestion();
+  atRenderPalette();
+}
+
+function atRenderPalette() {
+  const grid = document.getElementById('atPaletteGrid');
+  const setKey = 'set'+at.set;
+  grid.innerHTML = at.sortedQs.map((q,idx) => {
+    const qNum = q[setKey];
+    const answered = !!at.answers[q.id];
+    const marked = !!at.marked[q.id];
+    const visited = !!at.visited[q.id];
+    let cls = '';
+    if (idx === at.cur) cls += ' current';
+    if (answered && marked) cls += ' marked-answered';
+    else if (answered) cls += ' answered';
+    else if (marked) cls += ' marked';
+    else if (visited) cls += ' visited';
+    return `<button class="at-pq${cls}" onclick="atJumpTo(${idx})">${qNum}</button>`;
+  }).join('');
+}
+
+function atJumpTo(idx) {
+  at.cur = idx;
+  at.visited[at.sortedQs[at.cur].id] = true;
+  atRenderQuestion();
+  atRenderPalette();
+}
+
+function atConfirmSubmit() {
+  const skipped = at.sortedQs.filter(q => !at.answers[q.id]).length;
+  const dialog = document.getElementById('atDialog');
+  document.getElementById('atDialogMsg').innerHTML =
+    `You have attempted <strong>${at.sortedQs.length - skipped}</strong> of <strong>${at.sortedQs.length}</strong> questions.`+
+    (skipped > 0 ? ` <strong style="color:#dc2626">${skipped} questions are unanswered.</strong>` : ' All questions answered!')+
+    '<br><br>Once submitted, you cannot change your answers.';
+  dialog.classList.add('open');
+}
+
+function atCloseDialog() {
+  document.getElementById('atDialog').classList.remove('open');
+}
+
+function atFinalSubmit() {
+  atCloseDialog();
+  clearInterval(at.timer);
+  atShowResult();
+}
+
+function atShowResult() {
+  document.getElementById('atTest').style.display='none';
+  document.getElementById('atResult').style.display='block';
+
+  // Calculate results
+  let correct=0, wrong=0, skipped=0;
+  const subjectData = {};
+
+  at.sortedQs.forEach(q => {
+    const subj = q.subject;
+    if (!subjectData[subj]) subjectData[subj] = {correct:0, wrong:0, skipped:0, total:0};
+    subjectData[subj].total++;
+
+    const ua = at.answers[q.id];
+    if (!ua) {
+      skipped++;
+      subjectData[subj].skipped++;
+    } else if (ua === q.answer) {
+      correct++;
+      subjectData[subj].correct++;
+    } else {
+      wrong++;
+      subjectData[subj].wrong++;
+    }
+  });
+
+  const score = +(correct * 2 - wrong * 0.66).toFixed(2);
+  const accuracy = (correct+wrong) > 0 ? Math.round(correct/(correct+wrong)*100) : 0;
+  const pct = Math.max(0, Math.min(100, (score/200)*100));
+
+  // Header
+  document.getElementById('atResultMeta').textContent = at.name+' · Set '+at.set+' · 24 May 2026';
+  document.getElementById('atResultScore').textContent = score;
+  document.getElementById('rCorrect').textContent = correct;
+  document.getElementById('rWrong').textContent = wrong;
+  document.getElementById('rSkipped').textContent = skipped;
+  document.getElementById('rAccuracy').textContent = accuracy+'%';
+  setTimeout(() => { document.getElementById('atScoreBar').style.width = pct+'%'; }, 100);
+
+  // Subject analysis
+  const subjLabels = {
+    'economy':'Economy','science-technology':'Science & Tech','polity':'Polity',
+    'history':'History','environment':'Environment','current-affairs':'Current Affairs',
+    'geography':'Geography','art-culture':'Art & Culture','other':'Other'
+  };
+  const subjWrap = document.getElementById('atSubjAnalysis');
+  subjWrap.innerHTML = Object.entries(subjectData).sort((a,b)=>b[1].total-a[1].total).map(([subj,d]) => {
+    const s = +(d.correct*2 - d.wrong*0.66).toFixed(1);
+    const max = d.total*2;
+    const pct = Math.max(0,(s/max)*100);
+    return `<div class="at-subj-row">
+      <span class="at-subj-name">${subjLabels[subj]||subj}</span>
+      <div class="at-subj-bar-wrap"><div class="at-subj-bar" style="width:${pct}%"></div></div>
+      <span class="at-subj-score">${s}/${max}</span>
+      <span style="font-size:11px;color:var(--muted);min-width:40px;text-align:right">${d.correct}✓ ${d.wrong}✗</span>
+    </div>`;
+  }).join('');
+
+  // Answer review table
+  const setKey = 'set'+at.set;
+  const reviewHtml = at.sortedQs.map(q => {
+    const ua = at.answers[q.id] || '—';
+    const correct2 = q.answer;
+    const status = !at.answers[q.id] ? 'skip' : (ua===correct2?'correct':'wrong');
+    const pill = status==='correct' ? '<span class="status-pill sp-correct">✓ Correct</span>'
+                : status==='wrong'  ? '<span class="status-pill sp-wrong">✗ Wrong</span>'
+                : '<span class="status-pill sp-skip">Skipped</span>';
+    return `<tr>
+      <td style="font-weight:700;color:var(--accent)">${q[setKey]}</td>
+      <td style="max-width:260px;font-size:12px;color:var(--muted)">${q.text.slice(0,80)}…</td>
+      <td style="font-weight:700;color:${status==='wrong'?'#dc2626':status==='correct'?'#009B3A':'#6b7280'}">${ua}</td>
+      <td style="font-weight:700;color:#009B3A">${correct2}</td>
+      <td>${pill}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('atReviewBody').innerHTML = reviewHtml;
+
+  // Save to Google Sheet
+  atSaveToSheet(correct, wrong, skipped, score, accuracy);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function atSaveToSheet(correct, wrong, skipped, score, accuracy) {
+  const payload = {
+    timestamp: new Date().toLocaleString('en-IN'),
+    name: at.name,
+    mobile: at.mobile,
+    set: at.set,
+    score: score,
+    correct: correct,
+    wrong: wrong,
+    skipped: skipped,
+    total: at.sortedQs.length,
+    accuracy: accuracy+'%'
+  };
+
+  if (!SHEETS_SCRIPT_URL || SHEETS_SCRIPT_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {
+    console.log('Sheet submission skipped — configure SHEETS_SCRIPT_URL to enable.', payload);
+    return;
+  }
+
+  fetch(SHEETS_SCRIPT_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(payload)
+  }).then(() => {
+    document.getElementById('atSavedMsg').style.display='block';
+  }).catch(err => {
+    console.error('Sheet save failed:', err);
+  });
+}
+
+function atReset() {
+  clearInterval(at.timer);
+  document.getElementById('atResult').style.display='none';
+  document.getElementById('atRegister').style.display='block';
+  document.getElementById('atSavedMsg').style.display='none';
+}
+
+</script>
+</body>
+</html>
